@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/gson-2.2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/htmlunit-2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/htmlunit-core-js-2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/httpcore-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/httpmime-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/javax.ws.rs-api-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/javax.ws.rs-api-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/jsoup-1.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/nekohtml-1.9.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/quick-json-1.0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/resty-0.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/selenium-java-2.42.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/selenium-java-2.42.2-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/optimus89/Desktop/Jar files Nishant/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

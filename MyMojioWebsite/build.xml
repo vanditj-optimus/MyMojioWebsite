@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<project basedir="." default="run" name="MojioPlatform">
+   
+
+   <property name="src.dir"          value="src"/>
+   <property name="bin.dir"          value="bin"/>
+   <property name="build.dir"        value="build"/>
+   <property name="jar.target.dir"   value="${build.dir}/jars"/>
+   <property name="external.lib.dir" value="libs"/>
+   <property name="main.class"       value="DriverScript"/>
+
+   <path id="project.classpath">
+       <fileset dir="${external.lib.dir}">
+           <include name="*.jar"/>
+       </fileset>
+       <fileset dir="${build.dir}">
+       </fileset>
+   </path>
+
+   <target name="clean">
+       <delete dir="${build.dir}"/>
+       <delete dir="${jar.target.dir}"/>
+   </target>
+
+   <target name="init" depends="clean">
+       <mkdir dir="${build.dir}"/>
+       <mkdir dir="${jar.target.dir}"/>
+   </target>
+
+   <target name="compile" depends="init">
+       <echo message="${ant.project.name}: ${ant.file}"/>
+       <javac includeantruntime="false" destdir="${build.dir}" srcdir="${src.dir}">
+           <classpath refid="project.classpath"/>	    
+       </javac>
+   </target>
+
+   <target name="jar1" depends="compile">
+       <jar destfile="${jar.target.dir}\MojioPlatform.jar" basedir="${build.dir}">
+	<zipgroupfileset includes="*.jar" dir="libs"/>
+           <manifest>
+               <attribute name="Main-Class" value="com.mojio.test.DriverScript" />
+           </manifest>
+       </jar>
+   </target>
+	
+	<target name="jar2" depends="jar1">
+       <jar destfile="${jar.target.dir}\Report.jar" basedir="${build.dir}">
+	<zipgroupfileset includes="*.jar" dir="libs"/>
+           <manifest>
+               <attribute name="Main-Class" value="com.mojio.util.ReportUtil" />
+				
+           </manifest>
+       </jar>
+   </target>
+   
+   <target name="run" depends="jar2">
+       <java jar="${jar.target.dir}\MojioPlatform.jar" fork="true"/>
+		<java jar="${jar.target.dir}\Report.jar" fork="true"/>
+   </target>
+   
+   
+</project>
