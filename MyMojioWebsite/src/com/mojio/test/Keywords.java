@@ -14,6 +14,7 @@ import static com.mojio.test.DriverScript.OR;
 
 
 
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -21,6 +22,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -293,6 +295,20 @@ public class Keywords {
 	}
 	
 	//Write the email using current date and time
+	public String writeCurrentDateIMEIById(String object, String data){
+		APP_LOGS.debug("Write the email using current date and time");
+		try{
+			String data1=currentDate1();
+			String data2=data1.substring(3);
+			String data3="999"+data2;
+			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+		}
+		return Constants.KEYWORD_PASS;
+	}
+
+	//Write the email using current date and time
 	public String writeCurrentDateEmailByXpath(String object, String data){
 		APP_LOGS.debug("Write the email using current date and time by xpath");
 		try{
@@ -474,6 +490,23 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 	}
 
+	//clicking using xpath attribute and then accepting the alert
+	public  String acceptAlertOnBtnByXpath(String object,String data){
+		APP_LOGS.debug("clicking using xpath attribute and then accepting the alert");
+		try{
+			driver.findElement(By.xpath(OR.getProperty(object))).click();
+			Alert alert= driver.switchTo().alert();
+			alert.accept();
+
+		}catch(Exception e){
+			e.printStackTrace();
+			return Constants.KEYWORD_FAIL+" -- Not able to click on Button"+e.getMessage();
+		}
+
+		return Constants.KEYWORD_PASS;
+	}
+
+
 	//Navigate to new Window
 	public String navigateNewWindow(String object, String data){
 		APP_LOGS.debug("Navigate to new Window");
@@ -527,7 +560,7 @@ public class Keywords {
 	}
 
 	//-------------------------------------Scroll down the page-----------------------------------------
-	
+
 	public String scrollPageBottom(String object, String data) {
 		APP_LOGS.debug("Scrooling down the page");
 		try{
@@ -538,15 +571,15 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
-	
-	
+
+
 	public String scrollPageSectionBottom(String object, String data) {
 		APP_LOGS.debug("Scroling down the section of the page");
 		try{
-	       WebElement target = driver.findElement(By.id(OR.getProperty(object)));        
-	       ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",target); 
-	       Thread.sleep(500);
-	 		} catch(Exception e){
+			WebElement target = driver.findElement(By.id(OR.getProperty(object)));        
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",target); 
+			Thread.sleep(500);
+		} catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Not able scroll down the page";
 		}
 		return Constants.KEYWORD_PASS;
