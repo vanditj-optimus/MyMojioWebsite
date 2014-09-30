@@ -245,6 +245,20 @@ public class Keywords {
 			return Constants.KEYWORD_FAIL+e.getMessage();								
 		}
 	}
+	
+	//Function to verify if element is not present  -- By id
+		public String elementNotPresentid(String object, String data){
+			APP_LOGS.debug("Function to verify if element is present  -- By id");
+			try{
+				Boolean b=driver.findElement(By.id(OR.getProperty(object))).isDisplayed();
+				if(b==false)
+					return Constants.KEYWORD_PASS;
+				else
+					return Constants.KEYWORD_FAIL;
+			}catch(Exception e){
+				return Constants.KEYWORD_FAIL+e.getMessage();								
+			}
+		}
 
 
 	//Verify values selected in the  dropdown
@@ -276,6 +290,21 @@ public class Keywords {
 			return Constants.KEYWORD_FAIL+" Object not found "+e.getMessage();
 		}
 	}
+	
+	//Verify if the text is present in a object using ID
+	public String verifyTextById(String object, String data){
+		APP_LOGS.debug("Verify if the text is present in a object using ID");
+		try{
+			String actual=driver.findElement(By.id(OR.getProperty(object))).getText();
+			String expected=data;
+			if(actual.equals(expected))
+				return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL+" -- text not verified "+actual+" -- "+expected;
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Object not found "+e.getMessage();
+		}
+	}
 
 
 
@@ -293,10 +322,10 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
-	
-	//Write the email using current date and time
+
+	//Write the IMEI using current date and time
 	public String writeCurrentDateIMEIById(String object, String data){
-		APP_LOGS.debug("Write the email using current date and time");
+		APP_LOGS.debug("Write the IMEI using current date and time");
 		try{
 			String data1=currentDate1();
 			String data2=data1.substring(3);
@@ -308,7 +337,7 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 	}
 
-	//Write the email using current date and time
+	//Write the email using current date and time by Xpath
 	public String writeCurrentDateEmailByXpath(String object, String data){
 		APP_LOGS.debug("Write the email using current date and time by xpath");
 		try{
@@ -335,7 +364,7 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 
 	}
-
+	
 	//function to return current date and time
 	public String currentDate1() {
 		SimpleDateFormat sdfDate = new SimpleDateFormat("MMMddHHmmss");   
@@ -350,6 +379,7 @@ public class Keywords {
 			return CDT2;
 
 	}
+	
 
 	//Write data in text box, text area
 	public  String writeInInput(String object,String data){
@@ -416,6 +446,18 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}  
+
+	//Choose value from dropdown based on value
+	public String selectDropdownValueByValueName(String object, String data){
+		APP_LOGS.debug("Choose value from dropdown based on value using Name");
+		try{
+			Select select = new Select(driver.findElement(By.name(OR.getProperty(object))));
+			select.selectByValue(data);
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Not able to choose value based on value attrobute using Name";
+		}
+		return Constants.KEYWORD_PASS;
+	} 
 
 	//------------------------------------------Get Text of Web element and verify It------------------------------------------
 
