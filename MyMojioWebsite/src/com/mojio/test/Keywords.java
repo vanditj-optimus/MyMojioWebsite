@@ -44,6 +44,7 @@ public class Keywords {
 	String CDT2 = null;
 	String winHandleBefore = null;
 	String text = null;
+	String text2=null;
 
 	//-------------------------------------Browser Keywords-----------------------------------------
 
@@ -472,7 +473,7 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 	}
 
-	//Function to verify the Text of the acquired text
+	//Function to verify the Text of the acquired text using Id
 	public String verifyAcquiredTextId(String object, String data){
 		APP_LOGS.debug("Function to verify the Text of the acquired text");
 		String text1=null;
@@ -486,6 +487,33 @@ public class Keywords {
 			return Constants.KEYWORD_PASS+e.getMessage();
 		}
 	}
+	
+	//Function to retrieve text from read-only field-- By Xpath
+	public String getTextXpath(String object, String data){
+		APP_LOGS.debug("Function to retrieve text from read-only field- By Xpath");
+		try{
+			text2 =driver.findElement(By.xpath(OR.getProperty(object))).getText();
+		}catch(Exception e){
+			return Constants.KEYWORD_PASS+e.getMessage();
+		}
+		return Constants.KEYWORD_PASS;
+	}
+
+	//Function to verify the Text of the acquired text using Xpath
+	public String verifyAcquiredTextXpath(String object, String data){
+		APP_LOGS.debug("Function to verify the Text of the acquired text");
+		String text1=null;
+		try{
+			text1 =driver.findElement(By.xpath(OR.getProperty(object))).getText();
+			if(text2.equals(text1))
+				return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+		}catch(Exception e){
+			return Constants.KEYWORD_PASS+e.getMessage();
+		}
+	}
+
 
 
 
@@ -547,6 +575,22 @@ public class Keywords {
 
 		return Constants.KEYWORD_PASS;
 	}
+	
+	//clicking using xpath attribute and then accepting the alert
+		public  String acceptAlertOnBtnById(String object,String data){
+			APP_LOGS.debug("clicking using xpath attribute and then accepting the alert");
+			try{
+				driver.findElement(By.id(OR.getProperty(object))).click();
+				Alert alert= driver.switchTo().alert();
+				alert.accept();
+
+			}catch(Exception e){
+				e.printStackTrace();
+				return Constants.KEYWORD_FAIL+" -- Not able to click on Button"+e.getMessage();
+			}
+
+			return Constants.KEYWORD_PASS;
+		}
 
 
 	//Navigate to new Window
