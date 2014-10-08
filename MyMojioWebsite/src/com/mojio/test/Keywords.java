@@ -645,7 +645,7 @@ public class Keywords {
 		}
 	}
 
-	//-------------------------------------Scroll down the page-----------------------------------------
+	//-------------------------------------Scroll down the page----------------------------------------------------
 
 	public String scrollPageBottom(String object, String data) {
 		APP_LOGS.debug("Scrooling down the page");
@@ -667,6 +667,20 @@ public class Keywords {
 			Thread.sleep(500);
 		} catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Not able scroll down the page";
+		}
+		return Constants.KEYWORD_PASS;
+	}
+	
+	//----------------------------------Browse Button-------------------------------------------------------------------
+	
+	//Browse the file
+	public String browseFile(String object, String data) {
+		APP_LOGS.debug("Browse the file");
+		try{
+			WebElement filepath=driver.findElement(By.id(OR.getProperty(object)));
+			filepath.sendKeys("C:\\Users\\vandit.jain\\Desktop\\events.json");
+		} catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Not able Browse the File";
 		}
 		return Constants.KEYWORD_PASS;
 	}

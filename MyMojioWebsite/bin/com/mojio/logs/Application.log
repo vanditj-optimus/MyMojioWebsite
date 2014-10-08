@@ -1,423 +1,1591 @@
-01/10/2014 18:03:49 devpinoyLogger Hello
-01/10/2014 18:03:49 devpinoyLogger Properties loaded. Starting testing
-01/10/2014 18:03:49 devpinoyLogger Intialize Suite xlsx
-01/10/2014 18:03:49 devpinoyLogger Create_Account -- N
-01/10/2014 18:03:49 devpinoyLogger SignIn -- N
-01/10/2014 18:03:49 devpinoyLogger Home_Page -- N
-01/10/2014 18:03:49 devpinoyLogger MyProfile -- N
-01/10/2014 18:03:49 devpinoyLogger Dashboard_Page -- N
-01/10/2014 18:03:49 devpinoyLogger RightHandPanel -- N
-01/10/2014 18:03:49 devpinoyLogger LeftHandPanel -- N
-01/10/2014 18:03:49 devpinoyLogger MyVehicles -- N
-01/10/2014 18:03:49 devpinoyLogger MyMojios -- N
-01/10/2014 18:03:49 devpinoyLogger ClaimMojio -- N
-01/10/2014 18:03:49 devpinoyLogger BillingInformation -- N
-01/10/2014 18:03:49 devpinoyLogger Contact_Support -- N
-01/10/2014 18:03:49 devpinoyLogger MojioShop -- N
-01/10/2014 18:03:49 devpinoyLogger MyOrders -- N
-01/10/2014 18:03:49 devpinoyLogger LocateMojio -- N
-01/10/2014 18:03:49 devpinoyLogger TripHistory -- N
-01/10/2014 18:03:49 devpinoyLogger SendFeedback -- N
-01/10/2014 18:03:49 devpinoyLogger Settings -- N
-01/10/2014 18:03:49 devpinoyLogger AdminSearch -- Y
-01/10/2014 18:03:49 devpinoyLogger ******Executing the Suite******AdminSearch
-01/10/2014 18:03:49 devpinoyLogger SignIn -- Y
-01/10/2014 18:03:49 devpinoyLogger Executing the test case -> SignIn
-01/10/2014 18:03:49 devpinoyLogger Iteration number 1
-01/10/2014 18:03:49 devpinoyLogger openBrowser
-01/10/2014 18:03:49 devpinoyLogger Opening browser
-01/10/2014 18:03:54 devpinoyLogger PASS
-01/10/2014 18:03:54 devpinoyLogger taking screen shot according to config
-01/10/2014 18:03:54 devpinoyLogger navigate
-01/10/2014 18:03:54 devpinoyLogger Navigating to URL
-01/10/2014 18:04:17 devpinoyLogger PASS
-01/10/2014 18:04:17 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:17 devpinoyLogger isTextPresent
-01/10/2014 18:04:17 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:04:17 devpinoyLogger PASS
-01/10/2014 18:04:17 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:18 devpinoyLogger writeInInput
-01/10/2014 18:04:18 devpinoyLogger Write data in text box, text area
-01/10/2014 18:04:18 devpinoyLogger PASS
-01/10/2014 18:04:18 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:18 devpinoyLogger writeInInput
-01/10/2014 18:04:18 devpinoyLogger Write data in text box, text area
-01/10/2014 18:04:18 devpinoyLogger PASS
-01/10/2014 18:04:18 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:18 devpinoyLogger clickByXpath
-01/10/2014 18:04:18 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:18 devpinoyLogger PASS
-01/10/2014 18:04:18 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:27 devpinoyLogger isTextPresent
-01/10/2014 18:04:27 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:04:27 devpinoyLogger PASS
-01/10/2014 18:04:27 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:28 devpinoyLogger NavigateAdminSearch -- Y
-01/10/2014 18:04:28 devpinoyLogger Executing the test case -> NavigateAdminSearch
-01/10/2014 18:04:28 devpinoyLogger Iteration number 1
-01/10/2014 18:04:28 devpinoyLogger navigate
-01/10/2014 18:04:28 devpinoyLogger Navigating to URL
-01/10/2014 18:04:30 devpinoyLogger PASS
-01/10/2014 18:04:30 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:31 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:04:31 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:04:31 devpinoyLogger PASS
-01/10/2014 18:04:31 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:32 devpinoyLogger clickByXpath
-01/10/2014 18:04:32 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:35 devpinoyLogger PASS
-01/10/2014 18:04:35 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:35 devpinoyLogger verifyCurrentUrl
-01/10/2014 18:04:35 devpinoyLogger Verify the Current url
-01/10/2014 18:04:35 devpinoyLogger PASS
-01/10/2014 18:04:35 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:35 devpinoyLogger isTextPresent
-01/10/2014 18:04:35 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:04:35 devpinoyLogger PASS
-01/10/2014 18:04:35 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:36 devpinoyLogger SearchUser -- Y
-01/10/2014 18:04:36 devpinoyLogger Executing the test case -> SearchUser
-01/10/2014 18:04:36 devpinoyLogger Iteration number 1
-01/10/2014 18:04:36 devpinoyLogger navigate
-01/10/2014 18:04:36 devpinoyLogger Navigating to URL
-01/10/2014 18:04:38 devpinoyLogger PASS
-01/10/2014 18:04:38 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:38 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:04:38 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:04:38 devpinoyLogger PASS
-01/10/2014 18:04:38 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:39 devpinoyLogger clickByXpath
-01/10/2014 18:04:39 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:41 devpinoyLogger PASS
-01/10/2014 18:04:41 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:41 devpinoyLogger isTextPresent
-01/10/2014 18:04:41 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:04:41 devpinoyLogger PASS
-01/10/2014 18:04:41 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:41 devpinoyLogger writeInInput
-01/10/2014 18:04:41 devpinoyLogger Write data in text box, text area
-01/10/2014 18:04:41 devpinoyLogger PASS
-01/10/2014 18:04:41 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:41 devpinoyLogger clickByXpath
-01/10/2014 18:04:41 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:43 devpinoyLogger PASS
-01/10/2014 18:04:43 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:43 devpinoyLogger verifyElementPresentId
-01/10/2014 18:04:43 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:04:43 devpinoyLogger PASS
-01/10/2014 18:04:43 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:44 devpinoyLogger LoadMojioColumnVerify -- Y
-01/10/2014 18:04:44 devpinoyLogger Executing the test case -> LoadMojioColumnVerify
-01/10/2014 18:04:44 devpinoyLogger Iteration number 1
-01/10/2014 18:04:44 devpinoyLogger navigate
-01/10/2014 18:04:44 devpinoyLogger Navigating to URL
-01/10/2014 18:04:46 devpinoyLogger PASS
-01/10/2014 18:04:46 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:46 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:04:46 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:04:47 devpinoyLogger PASS
-01/10/2014 18:04:47 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:47 devpinoyLogger clickByXpath
-01/10/2014 18:04:47 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:48 devpinoyLogger PASS
-01/10/2014 18:04:48 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:48 devpinoyLogger isTextPresent
-01/10/2014 18:04:48 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:04:48 devpinoyLogger PASS
-01/10/2014 18:04:48 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:49 devpinoyLogger writeInInput
-01/10/2014 18:04:49 devpinoyLogger Write data in text box, text area
-01/10/2014 18:04:49 devpinoyLogger PASS
-01/10/2014 18:04:49 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:49 devpinoyLogger clickByXpath
-01/10/2014 18:04:49 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:04:50 devpinoyLogger PASS
-01/10/2014 18:04:50 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:51 devpinoyLogger verifyElementPresentId
-01/10/2014 18:04:51 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:04:51 devpinoyLogger PASS
-01/10/2014 18:04:51 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:51 devpinoyLogger clickByID
-01/10/2014 18:04:51 devpinoyLogger clicking using ID attribute
-01/10/2014 18:04:51 devpinoyLogger PASS
-01/10/2014 18:04:51 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:51 devpinoyLogger verifyElementPresentXpath
-01/10/2014 18:04:51 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:04:52 devpinoyLogger PASS
-01/10/2014 18:04:52 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:52 devpinoyLogger verifyTextByXpath
-01/10/2014 18:04:52 devpinoyLogger Verify if the text is present in a object
-01/10/2014 18:04:52 devpinoyLogger PASS
-01/10/2014 18:04:52 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:53 devpinoyLogger verifyTextByXpath
-01/10/2014 18:04:53 devpinoyLogger Verify if the text is present in a object
-01/10/2014 18:04:53 devpinoyLogger PASS
-01/10/2014 18:04:53 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:53 devpinoyLogger verifyTextByXpath
-01/10/2014 18:04:53 devpinoyLogger Verify if the text is present in a object
-01/10/2014 18:04:53 devpinoyLogger PASS
-01/10/2014 18:04:53 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:53 devpinoyLogger verifyTextByXpath
-01/10/2014 18:04:53 devpinoyLogger Verify if the text is present in a object
-01/10/2014 18:04:53 devpinoyLogger PASS
-01/10/2014 18:04:53 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:55 devpinoyLogger LoadMojioUser -- Y
-01/10/2014 18:04:55 devpinoyLogger Executing the test case -> LoadMojioUser
-01/10/2014 18:04:55 devpinoyLogger Iteration number 1
-01/10/2014 18:04:55 devpinoyLogger navigate
-01/10/2014 18:04:55 devpinoyLogger Navigating to URL
-01/10/2014 18:04:57 devpinoyLogger PASS
-01/10/2014 18:04:57 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:57 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:04:57 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:04:57 devpinoyLogger PASS
-01/10/2014 18:04:57 devpinoyLogger taking screen shot according to config
-01/10/2014 18:04:58 devpinoyLogger clickByXpath
-01/10/2014 18:04:58 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:05:07 devpinoyLogger PASS
-01/10/2014 18:05:07 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:07 devpinoyLogger isTextPresent
-01/10/2014 18:05:07 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:05:07 devpinoyLogger PASS
-01/10/2014 18:05:07 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:08 devpinoyLogger writeInInput
-01/10/2014 18:05:08 devpinoyLogger Write data in text box, text area
-01/10/2014 18:05:08 devpinoyLogger PASS
-01/10/2014 18:05:08 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:08 devpinoyLogger clickByXpath
-01/10/2014 18:05:08 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:05:09 devpinoyLogger PASS
-01/10/2014 18:05:09 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:10 devpinoyLogger verifyElementPresentId
-01/10/2014 18:05:10 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:05:10 devpinoyLogger PASS
-01/10/2014 18:05:10 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:10 devpinoyLogger clickByID
-01/10/2014 18:05:10 devpinoyLogger clicking using ID attribute
-01/10/2014 18:05:10 devpinoyLogger PASS
-01/10/2014 18:05:10 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:10 devpinoyLogger verifyElementPresentXpath
-01/10/2014 18:05:10 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:05:16 devpinoyLogger PASS
-01/10/2014 18:05:16 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:17 devpinoyLogger ManageLoadMojioUser -- Y
-01/10/2014 18:05:17 devpinoyLogger Executing the test case -> ManageLoadMojioUser
-01/10/2014 18:05:17 devpinoyLogger Iteration number 1
-01/10/2014 18:05:17 devpinoyLogger navigate
-01/10/2014 18:05:17 devpinoyLogger Navigating to URL
-01/10/2014 18:05:20 devpinoyLogger PASS
-01/10/2014 18:05:20 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:20 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:05:20 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:05:20 devpinoyLogger PASS
-01/10/2014 18:05:20 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:21 devpinoyLogger clickByXpath
-01/10/2014 18:05:21 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:05:22 devpinoyLogger PASS
-01/10/2014 18:05:22 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:23 devpinoyLogger isTextPresent
-01/10/2014 18:05:23 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:05:23 devpinoyLogger PASS
-01/10/2014 18:05:23 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:23 devpinoyLogger writeInInput
-01/10/2014 18:05:23 devpinoyLogger Write data in text box, text area
-01/10/2014 18:05:23 devpinoyLogger PASS
-01/10/2014 18:05:23 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:23 devpinoyLogger clickByXpath
-01/10/2014 18:05:23 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:05:25 devpinoyLogger PASS
-01/10/2014 18:05:25 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:25 devpinoyLogger verifyElementPresentId
-01/10/2014 18:05:25 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:05:25 devpinoyLogger PASS
-01/10/2014 18:05:25 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:25 devpinoyLogger clickByID
-01/10/2014 18:05:25 devpinoyLogger clicking using ID attribute
-01/10/2014 18:05:25 devpinoyLogger PASS
-01/10/2014 18:05:25 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:25 devpinoyLogger verifyElementPresentXpath
-01/10/2014 18:05:25 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:05:27 devpinoyLogger PASS
-01/10/2014 18:05:27 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:28 devpinoyLogger getTextXpath
-01/10/2014 18:05:28 devpinoyLogger Function to retrieve text from read-only field- By Xpath
-01/10/2014 18:05:28 devpinoyLogger PASS
-01/10/2014 18:05:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:28 devpinoyLogger clickByXpath
-01/10/2014 18:05:28 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:05:28 devpinoyLogger PASS
-01/10/2014 18:05:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:28 devpinoyLogger navigateNewWindow
-01/10/2014 18:05:28 devpinoyLogger Navigate to new Window
-01/10/2014 18:05:28 devpinoyLogger PASS
-01/10/2014 18:05:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:57 devpinoyLogger isTextPresent
-01/10/2014 18:05:57 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:05:57 devpinoyLogger PASS
-01/10/2014 18:05:57 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:58 devpinoyLogger verifyAcquiredTextXpath
-01/10/2014 18:05:58 devpinoyLogger Function to verify the Text of the acquired text
-01/10/2014 18:05:58 devpinoyLogger PASS
-01/10/2014 18:05:58 devpinoyLogger taking screen shot according to config
-01/10/2014 18:05:58 devpinoyLogger returnOldWindow
-01/10/2014 18:05:58 devpinoyLogger Click on a new window
-01/10/2014 18:05:58 devpinoyLogger PASS
-01/10/2014 18:05:58 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:00 devpinoyLogger LoadVehicleUser -- Y
-01/10/2014 18:06:00 devpinoyLogger Executing the test case -> LoadVehicleUser
-01/10/2014 18:06:00 devpinoyLogger Iteration number 1
-01/10/2014 18:06:00 devpinoyLogger navigate
-01/10/2014 18:06:00 devpinoyLogger Navigating to URL
-01/10/2014 18:06:02 devpinoyLogger PASS
-01/10/2014 18:06:02 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:02 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:06:02 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:06:03 devpinoyLogger PASS
-01/10/2014 18:06:03 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:03 devpinoyLogger clickByXpath
-01/10/2014 18:06:03 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:05 devpinoyLogger PASS
-01/10/2014 18:06:05 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:05 devpinoyLogger isTextPresent
-01/10/2014 18:06:05 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:06:05 devpinoyLogger PASS
-01/10/2014 18:06:05 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:06 devpinoyLogger writeInInput
-01/10/2014 18:06:06 devpinoyLogger Write data in text box, text area
-01/10/2014 18:06:06 devpinoyLogger PASS
-01/10/2014 18:06:06 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:06 devpinoyLogger clickByXpath
-01/10/2014 18:06:06 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:08 devpinoyLogger PASS
-01/10/2014 18:06:08 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:08 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:08 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:08 devpinoyLogger PASS
-01/10/2014 18:06:08 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:09 devpinoyLogger clickByID
-01/10/2014 18:06:09 devpinoyLogger clicking using ID attribute
-01/10/2014 18:06:09 devpinoyLogger PASS
-01/10/2014 18:06:09 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:09 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:09 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:11 devpinoyLogger PASS
-01/10/2014 18:06:11 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:12 devpinoyLogger MojioLoadVehicleUser -- Y
-01/10/2014 18:06:12 devpinoyLogger Executing the test case -> MojioLoadVehicleUser
-01/10/2014 18:06:12 devpinoyLogger Iteration number 1
-01/10/2014 18:06:12 devpinoyLogger navigate
-01/10/2014 18:06:12 devpinoyLogger Navigating to URL
-01/10/2014 18:06:14 devpinoyLogger PASS
-01/10/2014 18:06:14 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:14 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:06:14 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:06:15 devpinoyLogger PASS
-01/10/2014 18:06:15 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:15 devpinoyLogger clickByXpath
-01/10/2014 18:06:15 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:16 devpinoyLogger PASS
-01/10/2014 18:06:16 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:16 devpinoyLogger isTextPresent
-01/10/2014 18:06:16 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:06:16 devpinoyLogger PASS
-01/10/2014 18:06:16 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:17 devpinoyLogger writeInInput
-01/10/2014 18:06:17 devpinoyLogger Write data in text box, text area
-01/10/2014 18:06:17 devpinoyLogger PASS
-01/10/2014 18:06:17 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:17 devpinoyLogger clickByXpath
-01/10/2014 18:06:17 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:18 devpinoyLogger PASS
-01/10/2014 18:06:18 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:19 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:19 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:19 devpinoyLogger PASS
-01/10/2014 18:06:19 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:19 devpinoyLogger clickByID
-01/10/2014 18:06:19 devpinoyLogger clicking using ID attribute
-01/10/2014 18:06:19 devpinoyLogger PASS
-01/10/2014 18:06:19 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:19 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:19 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:20 devpinoyLogger PASS
-01/10/2014 18:06:20 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:20 devpinoyLogger clickByID
-01/10/2014 18:06:20 devpinoyLogger clicking using ID attribute
-01/10/2014 18:06:20 devpinoyLogger PASS
-01/10/2014 18:06:20 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:20 devpinoyLogger verifyElementPresentXpath
-01/10/2014 18:06:20 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:21 devpinoyLogger PASS
-01/10/2014 18:06:21 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:23 devpinoyLogger ManageMojioLoadVehicleUser -- Y
-01/10/2014 18:06:23 devpinoyLogger Executing the test case -> ManageMojioLoadVehicleUser
-01/10/2014 18:06:23 devpinoyLogger Iteration number 1
-01/10/2014 18:06:23 devpinoyLogger navigate
-01/10/2014 18:06:23 devpinoyLogger Navigating to URL
-01/10/2014 18:06:24 devpinoyLogger PASS
-01/10/2014 18:06:24 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:25 devpinoyLogger scrollPageSectionBottom
-01/10/2014 18:06:25 devpinoyLogger Scroling down the section of the page
-01/10/2014 18:06:25 devpinoyLogger PASS
-01/10/2014 18:06:25 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:25 devpinoyLogger clickByXpath
-01/10/2014 18:06:25 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:28 devpinoyLogger PASS
-01/10/2014 18:06:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:28 devpinoyLogger isTextPresent
-01/10/2014 18:06:28 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:06:28 devpinoyLogger PASS
-01/10/2014 18:06:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:28 devpinoyLogger writeInInput
-01/10/2014 18:06:28 devpinoyLogger Write data in text box, text area
-01/10/2014 18:06:28 devpinoyLogger PASS
-01/10/2014 18:06:28 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:28 devpinoyLogger clickByXpath
-01/10/2014 18:06:28 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:31 devpinoyLogger PASS
-01/10/2014 18:06:31 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:31 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:31 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:31 devpinoyLogger PASS
-01/10/2014 18:06:31 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:31 devpinoyLogger clickByID
-01/10/2014 18:06:31 devpinoyLogger clicking using ID attribute
-01/10/2014 18:06:31 devpinoyLogger PASS
-01/10/2014 18:06:31 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:32 devpinoyLogger verifyElementPresentId
-01/10/2014 18:06:32 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:32 devpinoyLogger PASS
-01/10/2014 18:06:32 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:33 devpinoyLogger clickByID
-01/10/2014 18:06:33 devpinoyLogger clicking using ID attribute
-01/10/2014 18:06:33 devpinoyLogger PASS
-01/10/2014 18:06:33 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:33 devpinoyLogger verifyElementPresentXpath
-01/10/2014 18:06:33 devpinoyLogger Function to verify if element is present  -- By xpath
-01/10/2014 18:06:34 devpinoyLogger PASS
-01/10/2014 18:06:34 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:34 devpinoyLogger getTextXpath
-01/10/2014 18:06:34 devpinoyLogger Function to retrieve text from read-only field- By Xpath
-01/10/2014 18:06:34 devpinoyLogger PASS
-01/10/2014 18:06:34 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:34 devpinoyLogger clickByXpath
-01/10/2014 18:06:34 devpinoyLogger Clicking using xpath attribute
-01/10/2014 18:06:34 devpinoyLogger PASS
-01/10/2014 18:06:34 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:35 devpinoyLogger navigateNewWindow
-01/10/2014 18:06:35 devpinoyLogger Navigate to new Window
-01/10/2014 18:06:35 devpinoyLogger PASS
-01/10/2014 18:06:35 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:56 devpinoyLogger isTextPresent
-01/10/2014 18:06:56 devpinoyLogger Verify if the text is present in page
-01/10/2014 18:06:56 devpinoyLogger PASS
-01/10/2014 18:06:56 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:56 devpinoyLogger verifyAcquiredTextXpath
-01/10/2014 18:06:56 devpinoyLogger Function to verify the Text of the acquired text
-01/10/2014 18:06:56 devpinoyLogger PASS
-01/10/2014 18:06:56 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:57 devpinoyLogger returnOldWindow
-01/10/2014 18:06:57 devpinoyLogger Click on a new window
-01/10/2014 18:06:57 devpinoyLogger PASS
-01/10/2014 18:06:57 devpinoyLogger taking screen shot according to config
-01/10/2014 18:06:58 devpinoyLogger  -- 
+08/10/2014 16:00:37 devpinoyLogger Hello
+08/10/2014 16:00:37 devpinoyLogger Properties loaded. Starting testing
+08/10/2014 16:00:37 devpinoyLogger Intialize Suite xlsx
+08/10/2014 16:00:38 devpinoyLogger Create_Account -- N
+08/10/2014 16:00:38 devpinoyLogger SignIn -- N
+08/10/2014 16:00:38 devpinoyLogger Home_Page -- N
+08/10/2014 16:00:38 devpinoyLogger MyProfile -- N
+08/10/2014 16:00:38 devpinoyLogger Dashboard_Page -- N
+08/10/2014 16:00:38 devpinoyLogger RightHandPanel -- N
+08/10/2014 16:00:38 devpinoyLogger LeftHandPanel -- N
+08/10/2014 16:00:38 devpinoyLogger MyVehicles -- N
+08/10/2014 16:00:38 devpinoyLogger MyMojios -- N
+08/10/2014 16:00:38 devpinoyLogger ClaimMojio -- N
+08/10/2014 16:00:38 devpinoyLogger BillingInformation -- N
+08/10/2014 16:00:38 devpinoyLogger Contact_Support -- N
+08/10/2014 16:00:38 devpinoyLogger MojioShop -- N
+08/10/2014 16:00:38 devpinoyLogger MyOrders -- N
+08/10/2014 16:00:38 devpinoyLogger LocateMojio -- N
+08/10/2014 16:00:38 devpinoyLogger TripHistory -- N
+08/10/2014 16:00:38 devpinoyLogger SendFeedback -- N
+08/10/2014 16:00:38 devpinoyLogger Settings -- N
+08/10/2014 16:00:38 devpinoyLogger AdminSearch -- Y
+08/10/2014 16:00:38 devpinoyLogger ******Executing the Suite******AdminSearch
+08/10/2014 16:00:38 devpinoyLogger SignIn -- Y
+08/10/2014 16:00:38 devpinoyLogger Executing the test case -> SignIn
+08/10/2014 16:00:38 devpinoyLogger Iteration number 1
+08/10/2014 16:00:38 devpinoyLogger openBrowser
+08/10/2014 16:00:38 devpinoyLogger Opening browser
+08/10/2014 16:00:44 devpinoyLogger PASS
+08/10/2014 16:00:44 devpinoyLogger taking screen shot according to config
+08/10/2014 16:00:45 devpinoyLogger navigate
+08/10/2014 16:00:45 devpinoyLogger Navigating to URL
+08/10/2014 16:01:18 devpinoyLogger PASS
+08/10/2014 16:01:18 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:18 devpinoyLogger isTextPresent
+08/10/2014 16:01:18 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:01:18 devpinoyLogger PASS
+08/10/2014 16:01:18 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:19 devpinoyLogger writeInInput
+08/10/2014 16:01:19 devpinoyLogger Write data in text box, text area
+08/10/2014 16:01:19 devpinoyLogger PASS
+08/10/2014 16:01:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:19 devpinoyLogger writeInInput
+08/10/2014 16:01:19 devpinoyLogger Write data in text box, text area
+08/10/2014 16:01:19 devpinoyLogger PASS
+08/10/2014 16:01:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:20 devpinoyLogger clickByXpath
+08/10/2014 16:01:20 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:01:20 devpinoyLogger PASS
+08/10/2014 16:01:20 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:32 devpinoyLogger isTextPresent
+08/10/2014 16:01:32 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:01:33 devpinoyLogger PASS
+08/10/2014 16:01:33 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:34 devpinoyLogger NavigateAdminSearch -- Y
+08/10/2014 16:01:34 devpinoyLogger Executing the test case -> NavigateAdminSearch
+08/10/2014 16:01:34 devpinoyLogger Iteration number 1
+08/10/2014 16:01:34 devpinoyLogger navigate
+08/10/2014 16:01:34 devpinoyLogger Navigating to URL
+08/10/2014 16:01:37 devpinoyLogger PASS
+08/10/2014 16:01:37 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:37 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:01:37 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:01:37 devpinoyLogger PASS
+08/10/2014 16:01:37 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:38 devpinoyLogger clickByXpath
+08/10/2014 16:01:38 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:01:42 devpinoyLogger PASS
+08/10/2014 16:01:42 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:42 devpinoyLogger verifyCurrentUrl
+08/10/2014 16:01:42 devpinoyLogger Verify the Current url
+08/10/2014 16:01:42 devpinoyLogger PASS
+08/10/2014 16:01:42 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:42 devpinoyLogger isTextPresent
+08/10/2014 16:01:42 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:01:42 devpinoyLogger PASS
+08/10/2014 16:01:42 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:43 devpinoyLogger SearchUser -- Y
+08/10/2014 16:01:43 devpinoyLogger Executing the test case -> SearchUser
+08/10/2014 16:01:43 devpinoyLogger Iteration number 1
+08/10/2014 16:01:43 devpinoyLogger navigate
+08/10/2014 16:01:43 devpinoyLogger Navigating to URL
+08/10/2014 16:01:46 devpinoyLogger PASS
+08/10/2014 16:01:46 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:46 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:01:46 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:01:47 devpinoyLogger PASS
+08/10/2014 16:01:47 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:47 devpinoyLogger clickByXpath
+08/10/2014 16:01:47 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:01:50 devpinoyLogger PASS
+08/10/2014 16:01:50 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:50 devpinoyLogger isTextPresent
+08/10/2014 16:01:50 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:01:50 devpinoyLogger PASS
+08/10/2014 16:01:50 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:50 devpinoyLogger writeInInput
+08/10/2014 16:01:50 devpinoyLogger Write data in text box, text area
+08/10/2014 16:01:50 devpinoyLogger PASS
+08/10/2014 16:01:50 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:50 devpinoyLogger clickByID
+08/10/2014 16:01:50 devpinoyLogger clicking using ID attribute
+08/10/2014 16:01:52 devpinoyLogger PASS
+08/10/2014 16:01:52 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:52 devpinoyLogger verifyElementPresentId
+08/10/2014 16:01:52 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:01:52 devpinoyLogger PASS
+08/10/2014 16:01:52 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:53 devpinoyLogger LoadMojioColumnVerify -- Y
+08/10/2014 16:01:53 devpinoyLogger Executing the test case -> LoadMojioColumnVerify
+08/10/2014 16:01:53 devpinoyLogger Iteration number 1
+08/10/2014 16:01:53 devpinoyLogger navigate
+08/10/2014 16:01:53 devpinoyLogger Navigating to URL
+08/10/2014 16:01:55 devpinoyLogger PASS
+08/10/2014 16:01:55 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:55 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:01:55 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:01:56 devpinoyLogger PASS
+08/10/2014 16:01:56 devpinoyLogger taking screen shot according to config
+08/10/2014 16:01:56 devpinoyLogger clickByXpath
+08/10/2014 16:01:56 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:02:02 devpinoyLogger PASS
+08/10/2014 16:02:02 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:02 devpinoyLogger isTextPresent
+08/10/2014 16:02:02 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:02:02 devpinoyLogger PASS
+08/10/2014 16:02:02 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:02 devpinoyLogger writeInInput
+08/10/2014 16:02:02 devpinoyLogger Write data in text box, text area
+08/10/2014 16:02:02 devpinoyLogger PASS
+08/10/2014 16:02:02 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:02 devpinoyLogger clickByID
+08/10/2014 16:02:02 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:09 devpinoyLogger PASS
+08/10/2014 16:02:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:09 devpinoyLogger verifyElementPresentId
+08/10/2014 16:02:09 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:09 devpinoyLogger PASS
+08/10/2014 16:02:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:09 devpinoyLogger clickByID
+08/10/2014 16:02:09 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:09 devpinoyLogger PASS
+08/10/2014 16:02:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:09 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:02:09 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:10 devpinoyLogger PASS
+08/10/2014 16:02:10 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:10 devpinoyLogger verifyTextByXpath
+08/10/2014 16:02:10 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:02:11 devpinoyLogger PASS
+08/10/2014 16:02:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:11 devpinoyLogger verifyTextByXpath
+08/10/2014 16:02:11 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:02:11 devpinoyLogger PASS
+08/10/2014 16:02:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:11 devpinoyLogger verifyTextByXpath
+08/10/2014 16:02:11 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:02:11 devpinoyLogger PASS
+08/10/2014 16:02:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:11 devpinoyLogger verifyTextByXpath
+08/10/2014 16:02:11 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:02:11 devpinoyLogger PASS
+08/10/2014 16:02:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:12 devpinoyLogger LoadMojioUser -- Y
+08/10/2014 16:02:12 devpinoyLogger Executing the test case -> LoadMojioUser
+08/10/2014 16:02:12 devpinoyLogger Iteration number 1
+08/10/2014 16:02:12 devpinoyLogger navigate
+08/10/2014 16:02:12 devpinoyLogger Navigating to URL
+08/10/2014 16:02:15 devpinoyLogger PASS
+08/10/2014 16:02:15 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:15 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:02:15 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:02:16 devpinoyLogger PASS
+08/10/2014 16:02:16 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:16 devpinoyLogger clickByXpath
+08/10/2014 16:02:16 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:02:17 devpinoyLogger PASS
+08/10/2014 16:02:17 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:17 devpinoyLogger isTextPresent
+08/10/2014 16:02:17 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:02:17 devpinoyLogger PASS
+08/10/2014 16:02:17 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:18 devpinoyLogger writeInInput
+08/10/2014 16:02:18 devpinoyLogger Write data in text box, text area
+08/10/2014 16:02:18 devpinoyLogger PASS
+08/10/2014 16:02:18 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:18 devpinoyLogger clickByID
+08/10/2014 16:02:18 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:19 devpinoyLogger PASS
+08/10/2014 16:02:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:20 devpinoyLogger verifyElementPresentId
+08/10/2014 16:02:20 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:20 devpinoyLogger PASS
+08/10/2014 16:02:20 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:20 devpinoyLogger clickByID
+08/10/2014 16:02:20 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:20 devpinoyLogger PASS
+08/10/2014 16:02:20 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:20 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:02:20 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:22 devpinoyLogger PASS
+08/10/2014 16:02:22 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:23 devpinoyLogger ManageLoadMojioUser -- Y
+08/10/2014 16:02:23 devpinoyLogger Executing the test case -> ManageLoadMojioUser
+08/10/2014 16:02:23 devpinoyLogger Iteration number 1
+08/10/2014 16:02:23 devpinoyLogger navigate
+08/10/2014 16:02:23 devpinoyLogger Navigating to URL
+08/10/2014 16:02:25 devpinoyLogger PASS
+08/10/2014 16:02:25 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:26 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:02:26 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:02:26 devpinoyLogger PASS
+08/10/2014 16:02:26 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:26 devpinoyLogger clickByXpath
+08/10/2014 16:02:26 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:02:28 devpinoyLogger PASS
+08/10/2014 16:02:28 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:28 devpinoyLogger isTextPresent
+08/10/2014 16:02:28 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:02:28 devpinoyLogger PASS
+08/10/2014 16:02:28 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:28 devpinoyLogger writeInInput
+08/10/2014 16:02:28 devpinoyLogger Write data in text box, text area
+08/10/2014 16:02:28 devpinoyLogger PASS
+08/10/2014 16:02:28 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:29 devpinoyLogger clickByID
+08/10/2014 16:02:29 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:32 devpinoyLogger PASS
+08/10/2014 16:02:32 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:32 devpinoyLogger verifyElementPresentId
+08/10/2014 16:02:32 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:32 devpinoyLogger PASS
+08/10/2014 16:02:32 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:32 devpinoyLogger clickByID
+08/10/2014 16:02:32 devpinoyLogger clicking using ID attribute
+08/10/2014 16:02:32 devpinoyLogger PASS
+08/10/2014 16:02:32 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:32 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:02:32 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:02:33 devpinoyLogger PASS
+08/10/2014 16:02:33 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:33 devpinoyLogger getTextXpath
+08/10/2014 16:02:33 devpinoyLogger Function to retrieve text from read-only field- By Xpath
+08/10/2014 16:02:33 devpinoyLogger PASS
+08/10/2014 16:02:33 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:34 devpinoyLogger clickByXpath
+08/10/2014 16:02:34 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:02:34 devpinoyLogger PASS
+08/10/2014 16:02:34 devpinoyLogger taking screen shot according to config
+08/10/2014 16:02:34 devpinoyLogger navigateNewWindow
+08/10/2014 16:02:34 devpinoyLogger Navigate to new Window
+08/10/2014 16:02:34 devpinoyLogger PASS
+08/10/2014 16:02:34 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:33 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:33 devpinoyLogger isTextPresent
+08/10/2014 16:13:33 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:13:34 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:34 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:35 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:35 devpinoyLogger verifyAcquiredTextXpath
+08/10/2014 16:13:35 devpinoyLogger Function to verify the Text of the acquired text
+08/10/2014 16:13:36 devpinoyLogger PASSError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:36 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:37 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:37 devpinoyLogger returnOldWindow
+08/10/2014 16:13:37 devpinoyLogger Click on a new window
+08/10/2014 16:13:38 devpinoyLogger FAIL Not able to accept the alert
+08/10/2014 16:13:38 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:39 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:41 devpinoyLogger LoadVehicleUser -- N
+08/10/2014 16:13:41 devpinoyLogger MojioLoadVehicleUser -- N
+08/10/2014 16:13:41 devpinoyLogger ManageMojioLoadVehicleUser -- N
+08/10/2014 16:13:41 devpinoyLogger TripLoadVehicleUser -- N
+08/10/2014 16:13:41 devpinoyLogger DetailsTripVehicleUser -- N
+08/10/2014 16:13:41 devpinoyLogger LoadVehicleUserColumnVerify -- N
+08/10/2014 16:13:41 devpinoyLogger TripVehicleUserColumnVerify -- N
+08/10/2014 16:13:41 devpinoyLogger MojioVehicleUserColumnVerify -- N
+08/10/2014 16:13:41 devpinoyLogger UserTableVerify -- N
+08/10/2014 16:13:41 devpinoyLogger SearchVehicle -- N
+08/10/2014 16:13:41 devpinoyLogger LoadMojioVehicle -- N
+08/10/2014 16:13:41 devpinoyLogger ManageLoadMojioVehicle -- N
+08/10/2014 16:13:41 devpinoyLogger MojioVehicleColumnVerify -- N
+08/10/2014 16:13:41 devpinoyLogger LoadOwnerVehicle -- N
+08/10/2014 16:13:41 devpinoyLogger OwnerColumnVerify -- Y
+08/10/2014 16:13:41 devpinoyLogger Executing the test case -> OwnerColumnVerify
+08/10/2014 16:13:41 devpinoyLogger Iteration number 1
+08/10/2014 16:13:41 devpinoyLogger navigate
+08/10/2014 16:13:41 devpinoyLogger Navigating to URL
+08/10/2014 16:13:42 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:13:42 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:43 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:43 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:13:43 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:13:44 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:13:44 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:45 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:45 devpinoyLogger clickByXpath
+08/10/2014 16:13:45 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:13:47 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:47 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:48 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:48 devpinoyLogger isTextPresent
+08/10/2014 16:13:48 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:13:49 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:49 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:50 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:50 devpinoyLogger writeInInput
+08/10/2014 16:13:50 devpinoyLogger Write data in text box, text area
+08/10/2014 16:13:51 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:51 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:52 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:52 devpinoyLogger clickByID
+08/10/2014 16:13:52 devpinoyLogger clicking using ID attribute
+08/10/2014 16:13:53 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:53 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:54 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:54 devpinoyLogger verifyElementPresentId
+08/10/2014 16:13:54 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:13:55 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:55 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:56 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:56 devpinoyLogger clickByID
+08/10/2014 16:13:56 devpinoyLogger clicking using ID attribute
+08/10/2014 16:13:57 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:57 devpinoyLogger taking screen shot according to config
+08/10/2014 16:13:58 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:13:58 devpinoyLogger verifyTextByXpath
+08/10/2014 16:13:58 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:13:59 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:13:59 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:00 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:14:00 devpinoyLogger verifyTextByXpath
+08/10/2014 16:14:00 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:14:01 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:14:01 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:02 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:14:02 devpinoyLogger verifyTextByXpath
+08/10/2014 16:14:02 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:14:03 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:14:03 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:04 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:14:04 devpinoyLogger verifyTextByXpath
+08/10/2014 16:14:04 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:14:05 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:14:05 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:06 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:14:06 devpinoyLogger verifyTextByXpath
+08/10/2014 16:14:06 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:14:07 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:14:07 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:08 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:14:08 devpinoyLogger verifyTextByXpath
+08/10/2014 16:14:08 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:14:09 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:14:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:14:10 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:26 devpinoyLogger LoadTripVehicle -- Y
+08/10/2014 16:16:26 devpinoyLogger Executing the test case -> LoadTripVehicle
+08/10/2014 16:16:26 devpinoyLogger Iteration number 1
+08/10/2014 16:16:26 devpinoyLogger navigate
+08/10/2014 16:16:26 devpinoyLogger Navigating to URL
+08/10/2014 16:16:27 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:16:27 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:28 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:28 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:16:28 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:16:29 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:16:29 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:30 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:30 devpinoyLogger clickByXpath
+08/10/2014 16:16:30 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:16:31 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:31 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:32 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:32 devpinoyLogger isTextPresent
+08/10/2014 16:16:32 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:16:33 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:33 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:34 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:34 devpinoyLogger writeInInput
+08/10/2014 16:16:34 devpinoyLogger Write data in text box, text area
+08/10/2014 16:16:35 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:35 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:36 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:36 devpinoyLogger clickByID
+08/10/2014 16:16:36 devpinoyLogger clicking using ID attribute
+08/10/2014 16:16:37 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:37 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:38 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:38 devpinoyLogger verifyElementPresentId
+08/10/2014 16:16:38 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:16:39 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:39 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:40 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:40 devpinoyLogger clickByID
+08/10/2014 16:16:40 devpinoyLogger clicking using ID attribute
+08/10/2014 16:16:41 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:41 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:42 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:42 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:16:42 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:16:43 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:43 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:44 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:45 devpinoyLogger DetailsTripVehicle -- Y
+08/10/2014 16:16:45 devpinoyLogger Executing the test case -> DetailsTripVehicle
+08/10/2014 16:16:45 devpinoyLogger Iteration number 1
+08/10/2014 16:16:45 devpinoyLogger navigate
+08/10/2014 16:16:45 devpinoyLogger Navigating to URL
+08/10/2014 16:16:46 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:16:46 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:47 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:47 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:16:47 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:16:48 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:16:48 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:49 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:49 devpinoyLogger clickByXpath
+08/10/2014 16:16:49 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:16:51 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:51 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:52 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:52 devpinoyLogger isTextPresent
+08/10/2014 16:16:52 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:16:53 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:53 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:54 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:54 devpinoyLogger writeInInput
+08/10/2014 16:16:54 devpinoyLogger Write data in text box, text area
+08/10/2014 16:16:55 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:55 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:56 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:56 devpinoyLogger clickByID
+08/10/2014 16:16:56 devpinoyLogger clicking using ID attribute
+08/10/2014 16:16:57 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:57 devpinoyLogger taking screen shot according to config
+08/10/2014 16:16:58 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:16:58 devpinoyLogger verifyElementPresentId
+08/10/2014 16:16:58 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:16:59 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:16:59 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:00 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:00 devpinoyLogger clickByID
+08/10/2014 16:17:00 devpinoyLogger clicking using ID attribute
+08/10/2014 16:17:01 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:01 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:02 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:02 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:17:02 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:17:03 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:03 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:04 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:04 devpinoyLogger getTextXpath
+08/10/2014 16:17:04 devpinoyLogger Function to retrieve text from read-only field- By Xpath
+08/10/2014 16:17:05 devpinoyLogger PASSError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:05 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:06 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:06 devpinoyLogger clickByXpath
+08/10/2014 16:17:06 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:17:07 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:07 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:08 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:08 devpinoyLogger navigateNewWindow
+08/10/2014 16:17:08 devpinoyLogger Navigate to new Window
+08/10/2014 16:17:09 devpinoyLogger FAIL Not able to accept the alert
+08/10/2014 16:17:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:10 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:10 devpinoyLogger isTextPresent
+08/10/2014 16:17:10 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:17:11 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:12 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:12 devpinoyLogger verifyAcquiredTextXpath
+08/10/2014 16:17:12 devpinoyLogger Function to verify the Text of the acquired text
+08/10/2014 16:17:13 devpinoyLogger PASSError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:13 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:14 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:14 devpinoyLogger returnOldWindow
+08/10/2014 16:17:14 devpinoyLogger Click on a new window
+08/10/2014 16:17:15 devpinoyLogger FAIL Not able to accept the alert
+08/10/2014 16:17:15 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:16 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:18 devpinoyLogger TripVehicleColumnVerify -- Y
+08/10/2014 16:17:18 devpinoyLogger Executing the test case -> TripVehicleColumnVerify
+08/10/2014 16:17:18 devpinoyLogger Iteration number 1
+08/10/2014 16:17:18 devpinoyLogger navigate
+08/10/2014 16:17:18 devpinoyLogger Navigating to URL
+08/10/2014 16:17:19 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:17:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:20 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:20 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:17:20 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:17:21 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:17:21 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:22 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:22 devpinoyLogger clickByXpath
+08/10/2014 16:17:22 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:17:23 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:23 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:24 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:24 devpinoyLogger isTextPresent
+08/10/2014 16:17:24 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:17:25 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:25 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:26 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:26 devpinoyLogger writeInInput
+08/10/2014 16:17:26 devpinoyLogger Write data in text box, text area
+08/10/2014 16:17:27 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:27 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:28 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:28 devpinoyLogger clickByID
+08/10/2014 16:17:28 devpinoyLogger clicking using ID attribute
+08/10/2014 16:17:29 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:29 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:30 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:30 devpinoyLogger verifyElementPresentId
+08/10/2014 16:17:30 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:17:31 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:31 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:32 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:32 devpinoyLogger clickByID
+08/10/2014 16:17:32 devpinoyLogger clicking using ID attribute
+08/10/2014 16:17:33 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:33 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:34 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:34 devpinoyLogger verifyElementPresentXpath
+08/10/2014 16:17:34 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:17:35 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:35 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:36 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:36 devpinoyLogger verifyTextByXpath
+08/10/2014 16:17:36 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:17:37 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:37 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:38 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:38 devpinoyLogger verifyTextByXpath
+08/10/2014 16:17:38 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:17:39 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:39 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:40 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:40 devpinoyLogger verifyTextByXpath
+08/10/2014 16:17:40 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:17:41 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:41 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:42 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:42 devpinoyLogger verifyTextByXpath
+08/10/2014 16:17:42 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:17:43 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:43 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:44 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:44 devpinoyLogger verifyTextByXpath
+08/10/2014 16:17:44 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:17:45 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:45 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:46 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:49 devpinoyLogger VehicleColumnVerify -- Y
+08/10/2014 16:17:49 devpinoyLogger Executing the test case -> VehicleColumnVerify
+08/10/2014 16:17:49 devpinoyLogger Iteration number 1
+08/10/2014 16:17:49 devpinoyLogger navigate
+08/10/2014 16:17:49 devpinoyLogger Navigating to URL
+08/10/2014 16:17:50 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:17:50 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:51 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:51 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:17:51 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:17:52 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:17:52 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:53 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:53 devpinoyLogger clickByXpath
+08/10/2014 16:17:53 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:17:54 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:54 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:55 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:55 devpinoyLogger isTextPresent
+08/10/2014 16:17:55 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:17:56 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:56 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:57 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:57 devpinoyLogger writeInInput
+08/10/2014 16:17:57 devpinoyLogger Write data in text box, text area
+08/10/2014 16:17:58 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:17:58 devpinoyLogger taking screen shot according to config
+08/10/2014 16:17:59 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:17:59 devpinoyLogger clickByID
+08/10/2014 16:17:59 devpinoyLogger clicking using ID attribute
+08/10/2014 16:18:00 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:00 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:01 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:01 devpinoyLogger verifyElementPresentId
+08/10/2014 16:18:01 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:18:02 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:02 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:03 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:03 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:03 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:04 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:04 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:05 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:05 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:05 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:06 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:06 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:07 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:07 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:07 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:08 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:08 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:09 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:09 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:09 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:10 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:10 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:11 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:11 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:11 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:12 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:12 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:13 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:13 devpinoyLogger verifyTextByXpath
+08/10/2014 16:18:13 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:18:14 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:14 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:15 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:18 devpinoyLogger SearchDevice -- Y
+08/10/2014 16:18:18 devpinoyLogger Executing the test case -> SearchDevice
+08/10/2014 16:18:18 devpinoyLogger Iteration number 1
+08/10/2014 16:18:18 devpinoyLogger navigate
+08/10/2014 16:18:18 devpinoyLogger Navigating to URL
+08/10/2014 16:18:19 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:18:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:20 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:20 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:18:20 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:18:21 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:18:21 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:22 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:22 devpinoyLogger clickByXpath
+08/10/2014 16:18:22 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:18:23 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:23 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:24 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:24 devpinoyLogger isTextPresent
+08/10/2014 16:18:24 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:18:25 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:25 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:26 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:26 devpinoyLogger writeInInput
+08/10/2014 16:18:26 devpinoyLogger Write data in text box, text area
+08/10/2014 16:18:27 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:27 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:28 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:28 devpinoyLogger clickByID
+08/10/2014 16:18:28 devpinoyLogger clicking using ID attribute
+08/10/2014 16:18:29 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:29 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:30 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:30 devpinoyLogger verifyElementPresentId
+08/10/2014 16:18:30 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:18:31 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:31 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:32 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:34 devpinoyLogger ManageDevice -- Y
+08/10/2014 16:18:34 devpinoyLogger Executing the test case -> ManageDevice
+08/10/2014 16:18:34 devpinoyLogger Iteration number 1
+08/10/2014 16:18:34 devpinoyLogger navigate
+08/10/2014 16:18:34 devpinoyLogger Navigating to URL
+08/10/2014 16:18:35 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:18:35 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:36 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:36 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:18:36 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:18:37 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:18:37 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:38 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:38 devpinoyLogger clickByXpath
+08/10/2014 16:18:38 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:18:39 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:39 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:40 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:40 devpinoyLogger isTextPresent
+08/10/2014 16:18:40 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:18:41 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:41 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:42 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:42 devpinoyLogger writeInInput
+08/10/2014 16:18:42 devpinoyLogger Write data in text box, text area
+08/10/2014 16:18:43 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:43 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:44 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:44 devpinoyLogger clickByID
+08/10/2014 16:18:44 devpinoyLogger clicking using ID attribute
+08/10/2014 16:18:45 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:45 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:46 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:46 devpinoyLogger verifyElementPresentId
+08/10/2014 16:18:46 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:18:47 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:47 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:48 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:48 devpinoyLogger getTextXpath
+08/10/2014 16:18:48 devpinoyLogger Function to retrieve text from read-only field- By Xpath
+08/10/2014 16:18:49 devpinoyLogger PASSError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:49 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:50 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:50 devpinoyLogger clickByXpath
+08/10/2014 16:18:50 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:18:51 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:51 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:52 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:52 devpinoyLogger navigateNewWindow
+08/10/2014 16:18:52 devpinoyLogger Navigate to new Window
+08/10/2014 16:18:53 devpinoyLogger FAIL Not able to accept the alert
+08/10/2014 16:18:53 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:54 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:54 devpinoyLogger isTextPresent
+08/10/2014 16:18:54 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:18:55 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:55 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:56 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:56 devpinoyLogger verifyAcquiredTextXpath
+08/10/2014 16:18:56 devpinoyLogger Function to verify the Text of the acquired text
+08/10/2014 16:18:57 devpinoyLogger PASSError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:18:57 devpinoyLogger taking screen shot according to config
+08/10/2014 16:18:58 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:18:58 devpinoyLogger returnOldWindow
+08/10/2014 16:18:58 devpinoyLogger Click on a new window
+08/10/2014 16:18:59 devpinoyLogger FAIL Not able to accept the alert
+08/10/2014 16:18:59 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:00 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:04 devpinoyLogger LoadOwnerDevice -- Y
+08/10/2014 16:19:04 devpinoyLogger Executing the test case -> LoadOwnerDevice
+08/10/2014 16:19:04 devpinoyLogger Iteration number 1
+08/10/2014 16:19:04 devpinoyLogger navigate
+08/10/2014 16:19:04 devpinoyLogger Navigating to URL
+08/10/2014 16:19:05 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:19:05 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:06 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:06 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:19:06 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:19:07 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:19:07 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:08 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:08 devpinoyLogger clickByXpath
+08/10/2014 16:19:08 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:19:09 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:10 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:10 devpinoyLogger isTextPresent
+08/10/2014 16:19:10 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:19:11 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:12 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:12 devpinoyLogger writeInInput
+08/10/2014 16:19:12 devpinoyLogger Write data in text box, text area
+08/10/2014 16:19:13 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:13 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:14 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:14 devpinoyLogger clickByID
+08/10/2014 16:19:14 devpinoyLogger clicking using ID attribute
+08/10/2014 16:19:15 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:15 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:16 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:16 devpinoyLogger verifyElementPresentId
+08/10/2014 16:19:16 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:19:17 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:17 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:18 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:18 devpinoyLogger clickByID
+08/10/2014 16:19:18 devpinoyLogger clicking using ID attribute
+08/10/2014 16:19:19 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:20 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:20 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:20 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:21 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:21 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:22 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:25 devpinoyLogger OwnerDeviceColumnVerify -- Y
+08/10/2014 16:19:25 devpinoyLogger Executing the test case -> OwnerDeviceColumnVerify
+08/10/2014 16:19:25 devpinoyLogger Iteration number 1
+08/10/2014 16:19:25 devpinoyLogger navigate
+08/10/2014 16:19:25 devpinoyLogger Navigating to URL
+08/10/2014 16:19:26 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:19:26 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:27 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:27 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:19:27 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:19:28 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:19:28 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:29 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:29 devpinoyLogger clickByXpath
+08/10/2014 16:19:29 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:19:30 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:30 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:31 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:31 devpinoyLogger isTextPresent
+08/10/2014 16:19:31 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:19:32 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:32 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:33 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:33 devpinoyLogger writeInInput
+08/10/2014 16:19:33 devpinoyLogger Write data in text box, text area
+08/10/2014 16:19:34 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:34 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:35 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:35 devpinoyLogger clickByID
+08/10/2014 16:19:35 devpinoyLogger clicking using ID attribute
+08/10/2014 16:19:36 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:36 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:37 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:37 devpinoyLogger verifyElementPresentId
+08/10/2014 16:19:37 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:19:38 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:38 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:39 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:39 devpinoyLogger clickByID
+08/10/2014 16:19:39 devpinoyLogger clicking using ID attribute
+08/10/2014 16:19:40 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:40 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:41 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:41 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:41 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:42 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:42 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:43 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:43 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:43 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:44 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:44 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:45 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:45 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:45 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:46 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:46 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:47 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:47 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:47 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:48 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:48 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:49 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:49 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:49 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:50 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:50 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:51 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:51 devpinoyLogger verifyTextByXpath
+08/10/2014 16:19:51 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:19:52 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:19:52 devpinoyLogger taking screen shot according to config
+08/10/2014 16:19:53 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:19:58 devpinoyLogger DeviceColumnVerify -- Y
+08/10/2014 16:19:58 devpinoyLogger Executing the test case -> DeviceColumnVerify
+08/10/2014 16:19:58 devpinoyLogger Iteration number 1
+08/10/2014 16:19:58 devpinoyLogger navigate
+08/10/2014 16:19:58 devpinoyLogger Navigating to URL
+08/10/2014 16:19:59 devpinoyLogger FAIL -- Not able to navigate
+08/10/2014 16:19:59 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:00 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:00 devpinoyLogger scrollPageSectionBottom
+08/10/2014 16:20:00 devpinoyLogger Scroling down the section of the page
+08/10/2014 16:20:01 devpinoyLogger FAIL Not able scroll down the page
+08/10/2014 16:20:01 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:02 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:02 devpinoyLogger clickByXpath
+08/10/2014 16:20:02 devpinoyLogger Clicking using xpath attribute
+08/10/2014 16:20:03 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:03 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:04 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:04 devpinoyLogger isTextPresent
+08/10/2014 16:20:04 devpinoyLogger Verify if the text is present in page
+08/10/2014 16:20:05 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:05 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:06 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:06 devpinoyLogger writeInInput
+08/10/2014 16:20:06 devpinoyLogger Write data in text box, text area
+08/10/2014 16:20:07 devpinoyLogger FAIL Unable to write Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:07 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:08 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:08 devpinoyLogger clickByID
+08/10/2014 16:20:08 devpinoyLogger clicking using ID attribute
+08/10/2014 16:20:09 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:09 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:10 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:10 devpinoyLogger verifyElementPresentId
+08/10/2014 16:20:10 devpinoyLogger Function to verify if element is present  -- By xpath
+08/10/2014 16:20:11 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:11 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:12 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:12 devpinoyLogger verifyTextByXpath
+08/10/2014 16:20:12 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:20:13 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:13 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:14 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:14 devpinoyLogger verifyTextByXpath
+08/10/2014 16:20:14 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:20:15 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:15 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:16 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:16 devpinoyLogger verifyTextByXpath
+08/10/2014 16:20:16 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:20:17 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:17 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:18 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:18 devpinoyLogger verifyTextByXpath
+08/10/2014 16:20:18 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:20:19 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:19 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:20 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:20 devpinoyLogger verifyTextByXpath
+08/10/2014 16:20:20 devpinoyLogger Verify if the text is present in a object
+08/10/2014 16:20:21 devpinoyLogger FAIL Object not found Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:21 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:22 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:22 devpinoyLogger closeBroswer
+08/10/2014 16:20:22 devpinoyLogger Closing the browser
+08/10/2014 16:20:23 devpinoyLogger FAILUnable to close browser. Check if its openError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: RemoteWebDriver
+08/10/2014 16:20:23 devpinoyLogger taking screen shot according to config
+08/10/2014 16:20:23 devpinoyLogger not able to take screen shotsThe FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'OPTIMUS-89', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: FirefoxDriver
+08/10/2014 16:20:28 devpinoyLogger  -- 
