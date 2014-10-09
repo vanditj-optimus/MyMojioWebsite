@@ -15,6 +15,8 @@ import static com.mojio.test.DriverScript.OR;
 
 
 
+
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -33,6 +35,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -49,15 +52,23 @@ public class Keywords {
 	//-------------------------------------Browser Keywords-----------------------------------------
 
 	//Open the browser
-	public String openBrowser(String object,String data){		
+	public String openBrowser(String object,String data){  
 		APP_LOGS.debug("Opening browser");
-		if(CONFIG.getProperty(data).equals("Mozilla"))
+		if(CONFIG.getProperty("browserType").equals("Mozilla"))
 			driver=new FirefoxDriver();
-		else if(CONFIG.getProperty(data).equals("IE"))
-			driver=new InternetExplorerDriver();
-		else if(CONFIG.getProperty(data).equals("Chrome"))
-			driver=new ChromeDriver();
+		else if(CONFIG.getProperty("browserType").equals("IE"))
+		{
+			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+("\\IEDriverServer.exe"));
+			DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
+			dc.setCapability("nativeEvents", false);
 
+			driver=new InternetExplorerDriver(dc);
+		}
+		else if(CONFIG.getProperty("browserType").equals("Chrome"))
+		{ System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+("\\chromedriver.exe"));
+
+		driver=new ChromeDriver();
+		}
 		long implicitWaitTime=Long.parseLong(CONFIG.getProperty("implicitwait"));
 		driver.manage().timeouts().implicitlyWait(implicitWaitTime, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -235,7 +246,7 @@ public class Keywords {
 
 	//Function to verify if element is not present  -- By xpath
 	public String elementNotPresentXpath(String object, String data){
-		APP_LOGS.debug("Function to verify if element is present  -- By xpath");
+		APP_LOGS.debug("Function to verify if element is not present  -- By xpath");
 		try{
 			Boolean b=driver.findElement(By.xpath(OR.getProperty(object))).isDisplayed();
 			if(b==false)
@@ -246,20 +257,20 @@ public class Keywords {
 			return Constants.KEYWORD_FAIL+e.getMessage();								
 		}
 	}
-	
+
 	//Function to verify if element is not present  -- By id
-		public String elementNotPresentid(String object, String data){
-			APP_LOGS.debug("Function to verify if element is present  -- By id");
-			try{
-				Boolean b=driver.findElement(By.id(OR.getProperty(object))).isDisplayed();
-				if(b==false)
-					return Constants.KEYWORD_PASS;
-				else
-					return Constants.KEYWORD_FAIL;
-			}catch(Exception e){
-				return Constants.KEYWORD_FAIL+e.getMessage();								
-			}
+	public String elementNotPresentid(String object, String data){
+		APP_LOGS.debug("Function to verify if element is not present  -- By id");
+		try{
+			Boolean b=driver.findElement(By.id(OR.getProperty(object))).isDisplayed();
+			if(b==false)
+				return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+e.getMessage();								
 		}
+	}
 
 
 	//Verify values selected in the  dropdown
@@ -291,7 +302,7 @@ public class Keywords {
 			return Constants.KEYWORD_FAIL+" Object not found "+e.getMessage();
 		}
 	}
-	
+
 	//Verify if the text is present in a object using ID
 	public String verifyTextById(String object, String data){
 		APP_LOGS.debug("Verify if the text is present in a object using ID");
@@ -304,6 +315,34 @@ public class Keywords {
 				return Constants.KEYWORD_FAIL+" -- text not verified "+actual+" -- "+expected;
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Object not found "+e.getMessage();
+		}
+	}
+
+	//Function to verify if element is Enabled  -- By id
+	public String verifyElementEnabledId(String object, String data){
+		APP_LOGS.debug("Function to verify if element is Enabled  -- By id");
+		try{
+			Boolean b=driver.findElement(By.id(OR.getProperty(object))).isEnabled();
+			if(b==true)
+				return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+e.getMessage();								
+		}
+	}
+
+	//Function to verify if element is Diabled  -- By Id
+	public String verifyElementDisabledId(String object, String data){
+		APP_LOGS.debug("Function to verify if element is Diabled  -- By Id");
+		try{
+			Boolean b=driver.findElement(By.id(OR.getProperty(object))).isEnabled();
+			if(b==false)
+				return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+e.getMessage();								
 		}
 	}
 
@@ -337,6 +376,21 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+	
+	//Write the Iccid and Msisdn using current date and time
+		public String writeCurrentDateSimCsvById(String object, String data){
+			APP_LOGS.debug("Write the IMEI using current date and time");
+			try{
+				String data1=currentDate1();
+				String data2=data1.substring(3);
+				String data3=data2+","+data2+"1";
+				driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
+			}catch(Exception e){
+				return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+			}
+			return Constants.KEYWORD_PASS;
+		}
+
 
 	//Write the email using current date and time by Xpath
 	public String writeCurrentDateEmailByXpath(String object, String data){
@@ -365,7 +419,7 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 
 	}
-	
+
 	//function to return current date and time
 	public String currentDate1() {
 		SimpleDateFormat sdfDate = new SimpleDateFormat("MMMddHHmmss");   
@@ -380,7 +434,7 @@ public class Keywords {
 			return CDT2;
 
 	}
-	
+
 
 	//Write data in text box, text area
 	public  String writeInInput(String object,String data){
@@ -487,7 +541,7 @@ public class Keywords {
 			return Constants.KEYWORD_PASS+e.getMessage();
 		}
 	}
-	
+
 	//Function to retrieve text from read-only field-- By Xpath
 	public String getTextXpath(String object, String data){
 		APP_LOGS.debug("Function to retrieve text from read-only field- By Xpath");
@@ -575,22 +629,22 @@ public class Keywords {
 
 		return Constants.KEYWORD_PASS;
 	}
-	
+
 	//clicking using xpath attribute and then accepting the alert
-		public  String acceptAlertOnBtnById(String object,String data){
-			APP_LOGS.debug("clicking using xpath attribute and then accepting the alert");
-			try{
-				driver.findElement(By.id(OR.getProperty(object))).click();
-				Alert alert= driver.switchTo().alert();
-				alert.accept();
+	public  String acceptAlertOnBtnById(String object,String data){
+		APP_LOGS.debug("clicking using xpath attribute and then accepting the alert");
+		try{
+			driver.findElement(By.id(OR.getProperty(object))).click();
+			Alert alert= driver.switchTo().alert();
+			alert.accept();
 
-			}catch(Exception e){
-				e.printStackTrace();
-				return Constants.KEYWORD_FAIL+" -- Not able to click on Button"+e.getMessage();
-			}
-
-			return Constants.KEYWORD_PASS;
+		}catch(Exception e){
+			e.printStackTrace();
+			return Constants.KEYWORD_FAIL+" -- Not able to click on Button"+e.getMessage();
 		}
+
+		return Constants.KEYWORD_PASS;
+	}
 
 
 	//Navigate to new Window
@@ -670,15 +724,27 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
-	
+
 	//----------------------------------Browse Button-------------------------------------------------------------------
-	
-	//Browse the file
-	public String browseFile(String object, String data) {
-		APP_LOGS.debug("Browse the file");
+
+	//Browse the Event file
+	public String browseEventFile(String object, String data) {
+		APP_LOGS.debug("Browse the Event file");
 		try{
 			WebElement filepath=driver.findElement(By.id(OR.getProperty(object)));
-			filepath.sendKeys("C:\\Users\\vandit.jain\\Desktop\\events.json");
+			filepath.sendKeys(System.getProperty("user.dir")+"\\src\\com\\mojio\\config\\events.json");
+		} catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Not able Browse the File";
+		}
+		return Constants.KEYWORD_PASS;
+	}
+
+	//Browse the Report file
+	public String browseReportFile(String object, String data) {
+		APP_LOGS.debug("Browse the Report file");
+		try{
+			WebElement filepath=driver.findElement(By.id(OR.getProperty(object)));
+			filepath.sendKeys(System.getProperty("user.dir")+"\\src\\com\\mojio\\config\\events.json");
 		} catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Not able Browse the File";
 		}

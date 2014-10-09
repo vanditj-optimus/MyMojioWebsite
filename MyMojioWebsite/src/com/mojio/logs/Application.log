@@ -1,118 +1,166 @@
-08/10/2014 18:43:32 devpinoyLogger Hello
-08/10/2014 18:43:32 devpinoyLogger Properties loaded. Starting testing
-08/10/2014 18:43:32 devpinoyLogger Intialize Suite xlsx
-08/10/2014 18:43:32 devpinoyLogger Create_Account -- N
-08/10/2014 18:43:32 devpinoyLogger SignIn -- N
-08/10/2014 18:43:32 devpinoyLogger Home_Page -- N
-08/10/2014 18:43:32 devpinoyLogger MyProfile -- N
-08/10/2014 18:43:32 devpinoyLogger Dashboard_Page -- N
-08/10/2014 18:43:32 devpinoyLogger RightHandPanel -- N
-08/10/2014 18:43:32 devpinoyLogger LeftHandPanel -- N
-08/10/2014 18:43:32 devpinoyLogger MyVehicles -- N
-08/10/2014 18:43:32 devpinoyLogger MyMojios -- N
-08/10/2014 18:43:32 devpinoyLogger ClaimMojio -- N
-08/10/2014 18:43:32 devpinoyLogger BillingInformation -- N
-08/10/2014 18:43:32 devpinoyLogger Contact_Support -- N
-08/10/2014 18:43:32 devpinoyLogger MojioShop -- N
-08/10/2014 18:43:32 devpinoyLogger MyOrders -- N
-08/10/2014 18:43:32 devpinoyLogger LocateMojio -- N
-08/10/2014 18:43:32 devpinoyLogger TripHistory -- N
-08/10/2014 18:43:32 devpinoyLogger SendFeedback -- N
-08/10/2014 18:43:32 devpinoyLogger Settings -- N
-08/10/2014 18:43:32 devpinoyLogger AdminSearch -- N
-08/10/2014 18:43:32 devpinoyLogger AdminDashboard -- N
-08/10/2014 18:43:32 devpinoyLogger ReplayEvent -- Y
-08/10/2014 18:43:32 devpinoyLogger ******Executing the Suite******ReplayEvent
-08/10/2014 18:43:32 devpinoyLogger SignIn -- Y
-08/10/2014 18:43:32 devpinoyLogger Executing the test case -> SignIn
-08/10/2014 18:43:32 devpinoyLogger Iteration number 1
-08/10/2014 18:43:32 devpinoyLogger openBrowser
-08/10/2014 18:43:32 devpinoyLogger Opening browser
-08/10/2014 18:43:37 devpinoyLogger PASS
-08/10/2014 18:43:37 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:38 devpinoyLogger navigate
-08/10/2014 18:43:38 devpinoyLogger Navigating to URL
-08/10/2014 18:43:46 devpinoyLogger PASS
-08/10/2014 18:43:46 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:46 devpinoyLogger isTextPresent
-08/10/2014 18:43:46 devpinoyLogger Verify if the text is present in page
-08/10/2014 18:43:46 devpinoyLogger PASS
-08/10/2014 18:43:46 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:47 devpinoyLogger writeInInput
-08/10/2014 18:43:47 devpinoyLogger Write data in text box, text area
-08/10/2014 18:43:47 devpinoyLogger PASS
-08/10/2014 18:43:47 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:47 devpinoyLogger writeInInput
-08/10/2014 18:43:47 devpinoyLogger Write data in text box, text area
-08/10/2014 18:43:47 devpinoyLogger PASS
-08/10/2014 18:43:47 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:48 devpinoyLogger clickByXpath
-08/10/2014 18:43:48 devpinoyLogger Clicking using xpath attribute
-08/10/2014 18:43:48 devpinoyLogger PASS
-08/10/2014 18:43:48 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:53 devpinoyLogger isTextPresent
-08/10/2014 18:43:53 devpinoyLogger Verify if the text is present in page
-08/10/2014 18:43:53 devpinoyLogger PASS
-08/10/2014 18:43:53 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:54 devpinoyLogger NavigateReplayEvents -- Y
-08/10/2014 18:43:54 devpinoyLogger Executing the test case -> NavigateReplayEvents
-08/10/2014 18:43:54 devpinoyLogger Iteration number 1
-08/10/2014 18:43:54 devpinoyLogger navigate
-08/10/2014 18:43:54 devpinoyLogger Navigating to URL
-08/10/2014 18:43:57 devpinoyLogger PASS
-08/10/2014 18:43:57 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:57 devpinoyLogger scrollPageSectionBottom
-08/10/2014 18:43:57 devpinoyLogger Scroling down the section of the page
-08/10/2014 18:43:57 devpinoyLogger PASS
-08/10/2014 18:43:57 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:58 devpinoyLogger clickByID
-08/10/2014 18:43:58 devpinoyLogger clicking using ID attribute
-08/10/2014 18:43:58 devpinoyLogger PASS
-08/10/2014 18:43:58 devpinoyLogger taking screen shot according to config
-08/10/2014 18:43:58 devpinoyLogger clickByXpath
-08/10/2014 18:43:58 devpinoyLogger Clicking using xpath attribute
-08/10/2014 18:44:00 devpinoyLogger PASS
-08/10/2014 18:44:00 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:00 devpinoyLogger verifyCurrentUrl
-08/10/2014 18:44:00 devpinoyLogger Verify the Current url
-08/10/2014 18:44:00 devpinoyLogger PASS
-08/10/2014 18:44:00 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:01 devpinoyLogger isTextPresent
-08/10/2014 18:44:01 devpinoyLogger Verify if the text is present in page
-08/10/2014 18:44:01 devpinoyLogger PASS
-08/10/2014 18:44:01 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:01 devpinoyLogger ReplayEvent -- Y
-08/10/2014 18:44:01 devpinoyLogger Executing the test case -> ReplayEvent
-08/10/2014 18:44:01 devpinoyLogger navigate
-08/10/2014 18:44:01 devpinoyLogger Navigating to URL
-08/10/2014 18:44:03 devpinoyLogger PASS
-08/10/2014 18:44:03 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:03 devpinoyLogger scrollPageSectionBottom
-08/10/2014 18:44:03 devpinoyLogger Scroling down the section of the page
-08/10/2014 18:44:04 devpinoyLogger PASS
-08/10/2014 18:44:04 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:04 devpinoyLogger clickByID
-08/10/2014 18:44:04 devpinoyLogger clicking using ID attribute
-08/10/2014 18:44:04 devpinoyLogger PASS
-08/10/2014 18:44:04 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:04 devpinoyLogger clickByXpath
-08/10/2014 18:44:04 devpinoyLogger Clicking using xpath attribute
-08/10/2014 18:44:06 devpinoyLogger PASS
-08/10/2014 18:44:06 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:06 devpinoyLogger isTextPresent
-08/10/2014 18:44:06 devpinoyLogger Verify if the text is present in page
-08/10/2014 18:44:06 devpinoyLogger PASS
-08/10/2014 18:44:06 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:06 devpinoyLogger browseFile
-08/10/2014 18:44:06 devpinoyLogger Browse the file
-08/10/2014 18:44:06 devpinoyLogger PASS
-08/10/2014 18:44:06 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:06 devpinoyLogger clickByID
-08/10/2014 18:44:06 devpinoyLogger clicking using ID attribute
-08/10/2014 18:44:19 devpinoyLogger PASS
-08/10/2014 18:44:19 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:19 devpinoyLogger isTextPresent
-08/10/2014 18:44:19 devpinoyLogger Verify if the text is present in page
-08/10/2014 18:44:19 devpinoyLogger PASS
-08/10/2014 18:44:19 devpinoyLogger taking screen shot according to config
-08/10/2014 18:44:19 devpinoyLogger 
+09/10/2014 18:52:48 devpinoyLogger Hello
+09/10/2014 18:52:48 devpinoyLogger Properties loaded. Starting testing
+09/10/2014 18:52:48 devpinoyLogger Intialize Suite xlsx
+09/10/2014 18:52:48 devpinoyLogger Create_Account -- N
+09/10/2014 18:52:48 devpinoyLogger SignIn -- N
+09/10/2014 18:52:48 devpinoyLogger Home_Page -- N
+09/10/2014 18:52:48 devpinoyLogger MyProfile -- N
+09/10/2014 18:52:48 devpinoyLogger Dashboard_Page -- N
+09/10/2014 18:52:48 devpinoyLogger RightHandPanel -- N
+09/10/2014 18:52:48 devpinoyLogger LeftHandPanel -- N
+09/10/2014 18:52:48 devpinoyLogger MyVehicles -- N
+09/10/2014 18:52:48 devpinoyLogger MyMojios -- N
+09/10/2014 18:52:48 devpinoyLogger ClaimMojio -- N
+09/10/2014 18:52:48 devpinoyLogger BillingInformation -- N
+09/10/2014 18:52:48 devpinoyLogger Contact_Support -- N
+09/10/2014 18:52:48 devpinoyLogger MojioShop -- N
+09/10/2014 18:52:48 devpinoyLogger MyOrders -- N
+09/10/2014 18:52:48 devpinoyLogger LocateMojio -- N
+09/10/2014 18:52:48 devpinoyLogger TripHistory -- N
+09/10/2014 18:52:48 devpinoyLogger SendFeedback -- N
+09/10/2014 18:52:48 devpinoyLogger Settings -- N
+09/10/2014 18:52:48 devpinoyLogger AdminSearch -- N
+09/10/2014 18:52:48 devpinoyLogger AdminDashboard -- N
+09/10/2014 18:52:48 devpinoyLogger ReplayEvent -- N
+09/10/2014 18:52:48 devpinoyLogger ReplayReport -- N
+09/10/2014 18:52:48 devpinoyLogger ImportSIMs -- Y
+09/10/2014 18:52:48 devpinoyLogger ******Executing the Suite******ImportSIMs
+09/10/2014 18:52:48 devpinoyLogger SignIn -- Y
+09/10/2014 18:52:48 devpinoyLogger Executing the test case -> SignIn
+09/10/2014 18:52:48 devpinoyLogger Iteration number 1
+09/10/2014 18:52:48 devpinoyLogger openBrowser
+09/10/2014 18:52:48 devpinoyLogger Opening browser
+09/10/2014 18:52:54 devpinoyLogger PASS
+09/10/2014 18:52:54 devpinoyLogger taking screen shot according to config
+09/10/2014 18:52:54 devpinoyLogger navigate
+09/10/2014 18:52:54 devpinoyLogger Navigating to URL
+09/10/2014 18:53:05 devpinoyLogger PASS
+09/10/2014 18:53:05 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:05 devpinoyLogger isTextPresent
+09/10/2014 18:53:05 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:05 devpinoyLogger PASS
+09/10/2014 18:53:05 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:05 devpinoyLogger writeInInput
+09/10/2014 18:53:05 devpinoyLogger Write data in text box, text area
+09/10/2014 18:53:06 devpinoyLogger PASS
+09/10/2014 18:53:06 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:06 devpinoyLogger writeInInput
+09/10/2014 18:53:06 devpinoyLogger Write data in text box, text area
+09/10/2014 18:53:06 devpinoyLogger PASS
+09/10/2014 18:53:06 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:06 devpinoyLogger clickByXpath
+09/10/2014 18:53:06 devpinoyLogger Clicking using xpath attribute
+09/10/2014 18:53:06 devpinoyLogger PASS
+09/10/2014 18:53:06 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:14 devpinoyLogger isTextPresent
+09/10/2014 18:53:14 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:14 devpinoyLogger PASS
+09/10/2014 18:53:14 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:15 devpinoyLogger NavigateImportMojioSims -- Y
+09/10/2014 18:53:15 devpinoyLogger Executing the test case -> NavigateImportMojioSims
+09/10/2014 18:53:15 devpinoyLogger Iteration number 1
+09/10/2014 18:53:15 devpinoyLogger navigate
+09/10/2014 18:53:15 devpinoyLogger Navigating to URL
+09/10/2014 18:53:17 devpinoyLogger PASS
+09/10/2014 18:53:17 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:17 devpinoyLogger scrollPageSectionBottom
+09/10/2014 18:53:17 devpinoyLogger Scroling down the section of the page
+09/10/2014 18:53:18 devpinoyLogger PASS
+09/10/2014 18:53:18 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:18 devpinoyLogger clickByID
+09/10/2014 18:53:18 devpinoyLogger clicking using ID attribute
+09/10/2014 18:53:18 devpinoyLogger PASS
+09/10/2014 18:53:18 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:19 devpinoyLogger clickByXpath
+09/10/2014 18:53:19 devpinoyLogger Clicking using xpath attribute
+09/10/2014 18:53:20 devpinoyLogger PASS
+09/10/2014 18:53:20 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:21 devpinoyLogger verifyCurrentUrl
+09/10/2014 18:53:21 devpinoyLogger Verify the Current url
+09/10/2014 18:53:21 devpinoyLogger PASS
+09/10/2014 18:53:21 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:21 devpinoyLogger isTextPresent
+09/10/2014 18:53:21 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:21 devpinoyLogger PASS
+09/10/2014 18:53:21 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:21 devpinoyLogger ImportSIMsCSVFormat -- Y
+09/10/2014 18:53:21 devpinoyLogger Executing the test case -> ImportSIMsCSVFormat
+09/10/2014 18:53:21 devpinoyLogger Iteration number 1
+09/10/2014 18:53:21 devpinoyLogger navigate
+09/10/2014 18:53:21 devpinoyLogger Navigating to URL
+09/10/2014 18:53:24 devpinoyLogger PASS
+09/10/2014 18:53:24 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:24 devpinoyLogger scrollPageSectionBottom
+09/10/2014 18:53:24 devpinoyLogger Scroling down the section of the page
+09/10/2014 18:53:25 devpinoyLogger PASS
+09/10/2014 18:53:25 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:25 devpinoyLogger clickByID
+09/10/2014 18:53:25 devpinoyLogger clicking using ID attribute
+09/10/2014 18:53:25 devpinoyLogger PASS
+09/10/2014 18:53:25 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:26 devpinoyLogger clickByXpath
+09/10/2014 18:53:26 devpinoyLogger Clicking using xpath attribute
+09/10/2014 18:53:28 devpinoyLogger PASS
+09/10/2014 18:53:28 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:28 devpinoyLogger isTextPresent
+09/10/2014 18:53:28 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:28 devpinoyLogger PASS
+09/10/2014 18:53:28 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:28 devpinoyLogger writeCurrentDateSimCsvById
+09/10/2014 18:53:28 devpinoyLogger Write the IMEI using current date and time
+09/10/2014 18:53:28 devpinoyLogger PASS
+09/10/2014 18:53:28 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:29 devpinoyLogger writeInInput
+09/10/2014 18:53:29 devpinoyLogger Write data in text box, text area
+09/10/2014 18:53:29 devpinoyLogger PASS
+09/10/2014 18:53:29 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:29 devpinoyLogger clickByID
+09/10/2014 18:53:29 devpinoyLogger clicking using ID attribute
+09/10/2014 18:53:29 devpinoyLogger PASS
+09/10/2014 18:53:29 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:29 devpinoyLogger pause
+09/10/2014 18:53:29 devpinoyLogger Pause the execution for 5 seconds
+09/10/2014 18:53:34 devpinoyLogger PASS
+09/10/2014 18:53:34 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:34 devpinoyLogger navigateNewWindow
+09/10/2014 18:53:34 devpinoyLogger Navigate to new Window
+09/10/2014 18:53:34 devpinoyLogger PASS
+09/10/2014 18:53:34 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:34 devpinoyLogger isTextPresent
+09/10/2014 18:53:34 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:35 devpinoyLogger PASS
+09/10/2014 18:53:35 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:35 devpinoyLogger clickByXpath
+09/10/2014 18:53:35 devpinoyLogger Clicking using xpath attribute
+09/10/2014 18:53:35 devpinoyLogger PASS
+09/10/2014 18:53:35 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:35 devpinoyLogger VerifyBrowseDisabled -- Y
+09/10/2014 18:53:35 devpinoyLogger Executing the test case -> VerifyBrowseDisabled
+09/10/2014 18:53:35 devpinoyLogger Iteration number 1
+09/10/2014 18:53:35 devpinoyLogger navigate
+09/10/2014 18:53:35 devpinoyLogger Navigating to URL
+09/10/2014 18:53:37 devpinoyLogger PASS
+09/10/2014 18:53:37 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:38 devpinoyLogger scrollPageSectionBottom
+09/10/2014 18:53:38 devpinoyLogger Scroling down the section of the page
+09/10/2014 18:53:38 devpinoyLogger PASS
+09/10/2014 18:53:38 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:39 devpinoyLogger clickByID
+09/10/2014 18:53:39 devpinoyLogger clicking using ID attribute
+09/10/2014 18:53:39 devpinoyLogger PASS
+09/10/2014 18:53:39 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:39 devpinoyLogger clickByXpath
+09/10/2014 18:53:39 devpinoyLogger Clicking using xpath attribute
+09/10/2014 18:53:40 devpinoyLogger PASS
+09/10/2014 18:53:40 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:41 devpinoyLogger isTextPresent
+09/10/2014 18:53:41 devpinoyLogger Verify if the text is present in page
+09/10/2014 18:53:41 devpinoyLogger PASS
+09/10/2014 18:53:41 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:41 devpinoyLogger verifyElementDisabledId
+09/10/2014 18:53:41 devpinoyLogger Function to verify if element is Diabled  -- By Id
+09/10/2014 18:53:41 devpinoyLogger PASS
+09/10/2014 18:53:41 devpinoyLogger taking screen shot according to config
+09/10/2014 18:53:41 devpinoyLogger  -- 
+09/10/2014 18:53:41 devpinoyLogger  -- 
+09/10/2014 18:53:41 devpinoyLogger  -- 
