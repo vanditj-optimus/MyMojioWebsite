@@ -383,7 +383,11 @@ public class Keywords {
 			try{
 				String data1=currentDate1();
 				String data2=data1.substring(3);
-				String data3=data2+","+data2+"1";
+				String data3=null;
+				if(Integer.parseInt(data)==1)
+				data3=data2+"1"+","+data2+"2";
+				else
+				data3=data2+"3"+","+data2+"4";
 				driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
 			}catch(Exception e){
 				return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
