@@ -17,9 +17,11 @@ import static com.mojio.test.DriverScript.OR;
 
 
 
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -337,10 +339,10 @@ public class Keywords {
 		APP_LOGS.debug("Function to verify if element is Diabled  -- By Id");
 		try{
 			Boolean b=driver.findElement(By.id(OR.getProperty(object))).isEnabled();
-			if(b==false)
-				return Constants.KEYWORD_PASS;
-			else
+			if(b==true)
 				return Constants.KEYWORD_FAIL;
+			else
+				return Constants.KEYWORD_PASS;
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+e.getMessage();								
 		}
@@ -376,25 +378,24 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
-	
-	//Write the Iccid and Msisdn using current date and time
-		public String writeCurrentDateSimCsvById(String object, String data){
-			APP_LOGS.debug("Write the IMEI using current date and time");
-			try{
-				String data1=currentDate1();
-				String data2=data1.substring(3);
-				String data3=null;
-				if(Integer.parseInt(data)==1)
-				data3=data2+"1"+","+data2+"2";
-				else
-				data3=data2+"3"+","+data2+"4";
-				driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
-			}catch(Exception e){
-				return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
-			}
-			return Constants.KEYWORD_PASS;
-		}
 
+	//Write the Iccid and Msisdn using current date and time
+	public String writeCurrentDateSimCsvById(String object, String data){
+		APP_LOGS.debug("Write the IMEI using current date and time");
+		try{
+			String data1=currentDate1();
+			String data2=data1.substring(3);
+			String data3=null;
+			if(Integer.parseInt(data)==1)
+				data3=data2+"1"+","+data2+"2";
+			else
+				data3=data2+"3"+","+data2+"4";
+			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+		}
+		return Constants.KEYWORD_PASS;
+	}
 
 	//Write the email using current date and time by Xpath
 	public String writeCurrentDateEmailByXpath(String object, String data){
@@ -439,6 +440,28 @@ public class Keywords {
 
 	}
 
+	//function to return date in mm/dd/yyyy format
+	public String getDate(int period)
+	{
+		Calendar currentDate = Calendar.getInstance();
+		SimpleDateFormat formatter= new SimpleDateFormat("MM/dd/YYYY");
+		currentDate.add(Calendar.DAY_OF_MONTH, period);
+		String date = formatter.format(currentDate.getTime());
+		return date;
+	}
+
+	//Input the date 
+	public String writeDateById(String object, String data){
+		APP_LOGS.debug("Input the date");
+		try{
+			int data4=Integer.parseInt(data);
+			String data5=getDate(data4);
+			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data5);
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+		}
+		return Constants.KEYWORD_PASS;
+	}
 
 	//Write data in text box, text area
 	public  String writeInInput(String object,String data){
