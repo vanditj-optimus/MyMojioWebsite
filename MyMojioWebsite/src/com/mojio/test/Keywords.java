@@ -56,9 +56,9 @@ public class Keywords {
 	//Open the browser
 	public String openBrowser(String object,String data){  
 		APP_LOGS.debug("Opening browser");
-		if(CONFIG.getProperty("browserType").equals("Mozilla"))
+		if(CONFIG.getProperty(data).equals("Mozilla"))
 			driver=new FirefoxDriver();
-		else if(CONFIG.getProperty("browserType").equals("IE"))
+		else if(CONFIG.getProperty(data).equals("IE"))
 		{
 			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+("\\IEDriverServer.exe"));
 			DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
@@ -66,7 +66,7 @@ public class Keywords {
 
 			driver=new InternetExplorerDriver(dc);
 		}
-		else if(CONFIG.getProperty("browserType").equals("Chrome"))
+		else if(CONFIG.getProperty(data).equals("Chrome"))
 		{ System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+("\\chromedriver.exe"));
 
 		driver=new ChromeDriver();
@@ -381,7 +381,7 @@ public class Keywords {
 
 	//Write the Iccid and Msisdn using current date and time
 	public String writeCurrentDateSimCsvById(String object, String data){
-		APP_LOGS.debug("Write the IMEI using current date and time");
+		APP_LOGS.debug("Write the Iccid and Msisdn using current date and time");
 		try{
 			String data1=currentDate1();
 			String data2=data1.substring(3);
@@ -390,6 +390,22 @@ public class Keywords {
 				data3=data2+"1"+","+data2+"2";
 			else
 				data3=data2+"3"+","+data2+"4";
+			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
+		}catch(Exception e){
+			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+		}
+		return Constants.KEYWORD_PASS;
+	}
+	
+
+	//Write the Iccid using current date and time
+	public String writeCurrentDateICCIDById(String object, String data){
+		APP_LOGS.debug("Write the Iccid using current date and time");
+		try{
+			String data1=currentDate1();
+			String data2=data1.substring(3);
+			String data3=null;
+			data3=data2+"1";
 			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
@@ -594,9 +610,6 @@ public class Keywords {
 			return Constants.KEYWORD_PASS+e.getMessage();
 		}
 	}
-
-
-
 
 	//----------------------------------------Clear Field--------------------------------------------
 
