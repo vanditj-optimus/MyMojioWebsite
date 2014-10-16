@@ -18,11 +18,14 @@ import static com.mojio.test.DriverScript.OR;
 
 
 
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -371,7 +374,7 @@ public class Keywords {
 		try{
 			String data1=currentDate1();
 			String data2=data1.substring(3);
-			String data3="999"+data2;
+			String data3="9999999"+data2;
 			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
@@ -637,7 +640,7 @@ public class Keywords {
 			driver.findElement(By.id(OR.getProperty(object))).click();
 			driver.switchTo().window(winHandleBefore);
 		}catch(Exception e){
-			return Constants.KEYWORD_FAIL+" Not able to accept the alert";
+			return Constants.KEYWORD_FAIL+" Not able to click on  the alert";
 		}
 		return Constants.KEYWORD_PASS;
 	}
@@ -670,9 +673,9 @@ public class Keywords {
 		return Constants.KEYWORD_PASS;
 	}
 
-	//clicking using xpath attribute and then accepting the alert
+	//clicking using ID attribute and then accepting the alert
 	public  String acceptAlertOnBtnById(String object,String data){
-		APP_LOGS.debug("clicking using xpath attribute and then accepting the alert");
+		APP_LOGS.debug("clicking using Id attribute and then accepting the alert");
 		try{
 			driver.findElement(By.id(OR.getProperty(object))).click();
 			Alert alert= driver.switchTo().alert();
@@ -723,6 +726,11 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+	
+		
+	
+	
+
 
 	//-----------------------------Capture Screenshot----------------------------------
 
