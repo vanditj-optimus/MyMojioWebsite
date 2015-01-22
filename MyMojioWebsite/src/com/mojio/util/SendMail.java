@@ -7,6 +7,7 @@ import javax.activation.DataSource;
 import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.*;
+
 import java.util.*;
 
 public class SendMail
@@ -25,17 +26,20 @@ public class SendMail
 // Email message body
 
 		String body = "Hello Everyone,\n\n" +
-				"Please find the attached Automation Test Results reports.  \n Please let me know if you need more information." +
-				"\n\n Thanks\n";
-
-		String[] to = {"vandit.jain@optimusinfo.com"}; //update the to , cc and bcc
-		String[] cc = {};
+				"Results for the Automation Regression Testing are attached."+
+                "\n\nUse the 'Index.html' file to see the results. Follow the link under 'Suite Name' column to see the results for individual modules." +
+                "\nPlease let us know if you need more information."+
+				"\n\nThanks\n"+
+                "\nMojio Automation Team";
+		
+		String[] to = {"saurabh.sharma@optimusinfo.com"}; //update the to , cc and bcc
+		String[] cc = {"vandit.jain@optimusinfo.com"};
 		String[] bcc = {};
 
 		// This is for google
 
-		SendMail.sendMail("vandit.jain@optimusinfo.com",
-				"8010055721j",
+		SendMail.sendMail("mojio.1@optimusinfo.com",
+				"optimus123",
 				"smtp.gmail.com",
 				"465", 
 				"true",
@@ -47,7 +51,7 @@ public class SendMail
 				cc,
 				bcc,
 //Email subject line
-				"Mojio Platform Automation Test Reports",
+				"My Mojio Website Staging Environment Automation Test Reports",
 
 				body,
 				path, 
