@@ -334,7 +334,7 @@ public class Keywords {
 		}
 	}
 
-	//Function to verify if element is Diabled  -- By Id
+	//Function to verify if element is Disabled  -- By Id
 	public String verifyElementDisabledId(String object, String data){
 		APP_LOGS.debug("Function to verify if element is Diabled  -- By Id");
 		try{
@@ -790,7 +790,8 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+	
+	 
 
 }
-
 

@@ -1,73 +1,101 @@
-20/01/2015 19:23:44 devpinoyLogger Hello
-20/01/2015 19:23:44 devpinoyLogger Properties loaded. Starting testing
-20/01/2015 19:23:44 devpinoyLogger Intialize Suite xlsx
-20/01/2015 19:23:44 devpinoyLogger CreateAccount -- Y
-20/01/2015 19:23:44 devpinoyLogger ******Executing the Suite******CreateAccount
-20/01/2015 19:23:45 devpinoyLogger CreateAccount -- N
-20/01/2015 19:23:45 devpinoyLogger Username_Field_Blank -- N
-20/01/2015 19:23:45 devpinoyLogger Email_Field_Blank -- N
-20/01/2015 19:23:45 devpinoyLogger Password_Field_Blank -- N
-20/01/2015 19:23:45 devpinoyLogger Confirm_Password_Field_Blank -- N
-20/01/2015 19:23:45 devpinoyLogger Invalid_Username -- N
-20/01/2015 19:23:45 devpinoyLogger Invalid_Email -- N
-20/01/2015 19:23:45 devpinoyLogger Invalid_Password -- N
-20/01/2015 19:23:45 devpinoyLogger Different_Password -- N
-20/01/2015 19:23:45 devpinoyLogger All_Field_Blank -- Y
-20/01/2015 19:23:45 devpinoyLogger Executing the test case -> All_Field_Blank
-20/01/2015 19:23:45 devpinoyLogger Iteration number 1
-20/01/2015 19:23:45 devpinoyLogger openBrowser
-20/01/2015 19:23:45 devpinoyLogger Opening browser
-20/01/2015 19:23:51 devpinoyLogger PASS
-20/01/2015 19:23:51 devpinoyLogger navigate
-20/01/2015 19:23:51 devpinoyLogger Navigating to URL
-20/01/2015 19:24:06 devpinoyLogger PASS
-20/01/2015 19:24:06 devpinoyLogger isTextPresent
-20/01/2015 19:24:06 devpinoyLogger Verify if the text is present in page
-20/01/2015 19:24:06 devpinoyLogger PASS
-20/01/2015 19:24:06 devpinoyLogger clickByXpath
-20/01/2015 19:24:06 devpinoyLogger Clicking using xpath attribute
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger clickByXpath
-20/01/2015 19:24:07 devpinoyLogger Clicking using xpath attribute
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger verifyTextByXpath
-20/01/2015 19:24:07 devpinoyLogger Verify if the text is present in a object
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger verifyTextByXpath
-20/01/2015 19:24:07 devpinoyLogger Verify if the text is present in a object
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger verifyTextByXpath
-20/01/2015 19:24:07 devpinoyLogger Verify if the text is present in a object
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger verifyTextByXpath
-20/01/2015 19:24:07 devpinoyLogger Verify if the text is present in a object
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:07 devpinoyLogger closeBroswer
-20/01/2015 19:24:07 devpinoyLogger Closing the browser
-20/01/2015 19:24:07 devpinoyLogger PASS
-20/01/2015 19:24:08 devpinoyLogger Cancel_Button -- N
-20/01/2015 19:24:08 devpinoyLogger SignIn -- N
-20/01/2015 19:24:08 devpinoyLogger Home_Page -- N
-20/01/2015 19:24:08 devpinoyLogger MyProfile -- N
-20/01/2015 19:24:08 devpinoyLogger Dashboard_Page -- N
-20/01/2015 19:24:08 devpinoyLogger RightHandPanel -- N
-20/01/2015 19:24:08 devpinoyLogger LeftHandPanel -- N
-20/01/2015 19:24:08 devpinoyLogger MyVehicles -- N
-20/01/2015 19:24:08 devpinoyLogger MyMojios -- N
-20/01/2015 19:24:08 devpinoyLogger ClaimMojio -- N
-20/01/2015 19:24:08 devpinoyLogger BillingInformation -- N
-20/01/2015 19:24:08 devpinoyLogger Contact_Support -- N
-20/01/2015 19:24:08 devpinoyLogger MojioShop -- N
-20/01/2015 19:24:08 devpinoyLogger MyOrders -- N
-20/01/2015 19:24:08 devpinoyLogger LocateMojio -- N
-20/01/2015 19:24:08 devpinoyLogger TripHistory -- N
-20/01/2015 19:24:08 devpinoyLogger SendFeedback -- N
-20/01/2015 19:24:08 devpinoyLogger Settings -- N
-20/01/2015 19:24:08 devpinoyLogger AdminSearch -- N
-20/01/2015 19:24:08 devpinoyLogger AdminDashboard -- N
-20/01/2015 19:24:08 devpinoyLogger ReplayEvent -- N
-20/01/2015 19:24:08 devpinoyLogger ReplayReport -- N
-20/01/2015 19:24:08 devpinoyLogger ImportSIMs -- N
-20/01/2015 19:24:08 devpinoyLogger ImportMojio -- N
-20/01/2015 19:24:08 devpinoyLogger ExportEvents -- N
-20/01/2015 19:24:08 devpinoyLogger DeviceManager -- N
+30/01/2015 18:44:14 devpinoyLogger Hello
+30/01/2015 18:44:14 devpinoyLogger Properties loaded. Starting testing
+30/01/2015 18:44:14 devpinoyLogger Intialize Suite xlsx
+30/01/2015 18:44:14 devpinoyLogger CreateAccount -- N
+30/01/2015 18:44:14 devpinoyLogger SignIn -- N
+30/01/2015 18:44:14 devpinoyLogger Home_Page -- N
+30/01/2015 18:44:14 devpinoyLogger MyProfile -- N
+30/01/2015 18:44:14 devpinoyLogger Dashboard_Page -- N
+30/01/2015 18:44:14 devpinoyLogger RightHandPanel -- N
+30/01/2015 18:44:14 devpinoyLogger LeftHandPanel -- Y
+30/01/2015 18:44:14 devpinoyLogger ******Executing the Suite******LeftHandPanel
+30/01/2015 18:44:14 devpinoyLogger SignIn -- Y
+30/01/2015 18:44:14 devpinoyLogger Executing the test case -> SignIn
+30/01/2015 18:44:14 devpinoyLogger Iteration number 1
+30/01/2015 18:44:14 devpinoyLogger openBrowser
+30/01/2015 18:44:14 devpinoyLogger Opening browser
+30/01/2015 18:44:21 devpinoyLogger PASS
+30/01/2015 18:44:21 devpinoyLogger navigate
+30/01/2015 18:44:21 devpinoyLogger Navigating to URL
+30/01/2015 18:44:41 devpinoyLogger PASS
+30/01/2015 18:44:41 devpinoyLogger isTextPresent
+30/01/2015 18:44:41 devpinoyLogger Verify if the text is present in page
+30/01/2015 18:44:41 devpinoyLogger PASS
+30/01/2015 18:44:41 devpinoyLogger writeInInput
+30/01/2015 18:44:41 devpinoyLogger Write data in text box, text area
+30/01/2015 18:44:41 devpinoyLogger PASS
+30/01/2015 18:44:41 devpinoyLogger writeInInput
+30/01/2015 18:44:41 devpinoyLogger Write data in text box, text area
+30/01/2015 18:44:41 devpinoyLogger PASS
+30/01/2015 18:44:41 devpinoyLogger clickByXpath
+30/01/2015 18:44:41 devpinoyLogger Clicking using xpath attribute
+30/01/2015 18:44:51 devpinoyLogger PASS
+30/01/2015 18:44:51 devpinoyLogger isTextPresent
+30/01/2015 18:44:51 devpinoyLogger Verify if the text is present in page
+30/01/2015 18:44:51 devpinoyLogger PASS
+30/01/2015 18:44:53 devpinoyLogger NavigateDashboard -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateLocateVehicle -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateTripHistory -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateNotificationList -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateMyprofile -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateMyVehicles -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateMyMojios -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateClaimAMojio -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateSetupYourMojio -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateFAQ -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateContactSupport -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateOrderaMojio -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateMyOrders -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateSendFeedback -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateAdminDashboard -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateDeviceList -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateDeviceManager -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateDeviceConfiguration -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateDeviceFirmware -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateTroubleshoot -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateImportMojioDevices -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateImportMojioSims -- N
+30/01/2015 18:44:53 devpinoyLogger NavigateReplayReports -- Y
+30/01/2015 18:44:53 devpinoyLogger Executing the test case -> NavigateReplayReports
+30/01/2015 18:44:53 devpinoyLogger Iteration number 1
+30/01/2015 18:44:53 devpinoyLogger navigate
+30/01/2015 18:44:53 devpinoyLogger Navigating to URL
+30/01/2015 18:44:54 devpinoyLogger PASS
+30/01/2015 18:44:54 devpinoyLogger scrollPageSectionBottom
+30/01/2015 18:44:54 devpinoyLogger Scroling down the section of the page
+30/01/2015 18:44:55 devpinoyLogger PASS
+30/01/2015 18:44:55 devpinoyLogger clickByID
+30/01/2015 18:44:55 devpinoyLogger clicking using ID attribute
+30/01/2015 18:44:55 devpinoyLogger PASS
+30/01/2015 18:44:55 devpinoyLogger clickLinkByLinkText
+30/01/2015 18:44:55 devpinoyLogger Click using the link text
+30/01/2015 18:44:58 devpinoyLogger PASS
+30/01/2015 18:44:58 devpinoyLogger verifyCurrentUrl
+30/01/2015 18:44:58 devpinoyLogger Verify the Current url
+30/01/2015 18:44:58 devpinoyLogger PASS
+30/01/2015 18:44:58 devpinoyLogger isTextPresent
+30/01/2015 18:44:58 devpinoyLogger Verify if the text is present in page
+30/01/2015 18:44:58 devpinoyLogger PASS
+30/01/2015 18:44:59 devpinoyLogger NavigateReplayEvents -- N
+30/01/2015 18:44:59 devpinoyLogger NavigateExportEvents -- N
+30/01/2015 18:44:59 devpinoyLogger NavigateOperations -- N
+30/01/2015 18:44:59 devpinoyLogger NavigateAdminSearch -- N
+30/01/2015 18:44:59 devpinoyLogger MyVehicles -- N
+30/01/2015 18:44:59 devpinoyLogger MyMojios -- N
+30/01/2015 18:44:59 devpinoyLogger ClaimMojio -- N
+30/01/2015 18:44:59 devpinoyLogger BillingInformation -- N
+30/01/2015 18:44:59 devpinoyLogger Contact_Support -- N
+30/01/2015 18:44:59 devpinoyLogger MojioShop -- N
+30/01/2015 18:44:59 devpinoyLogger MyOrders -- N
+30/01/2015 18:44:59 devpinoyLogger LocateMojio -- N
+30/01/2015 18:44:59 devpinoyLogger TripHistory -- N
+30/01/2015 18:44:59 devpinoyLogger SendFeedback -- N
+30/01/2015 18:44:59 devpinoyLogger Settings -- N
+30/01/2015 18:44:59 devpinoyLogger AdminSearch -- N
+30/01/2015 18:44:59 devpinoyLogger AdminDashboard -- N
+30/01/2015 18:44:59 devpinoyLogger ReplayEvent -- N
+30/01/2015 18:44:59 devpinoyLogger ReplayReport -- N
+30/01/2015 18:44:59 devpinoyLogger ImportSIMs -- N
+30/01/2015 18:44:59 devpinoyLogger ImportMojio -- N
+30/01/2015 18:44:59 devpinoyLogger ExportEvents -- N
+30/01/2015 18:44:59 devpinoyLogger DeviceManager -- N
