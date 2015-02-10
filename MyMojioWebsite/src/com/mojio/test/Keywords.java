@@ -344,8 +344,29 @@ public class Keywords {
 			else
 				return Constants.KEYWORD_PASS;
 		}catch(Exception e){
-			return Constants.KEYWORD_FAIL+e.getMessage();								
+			return Constants.KEYWORD_FAIL+e.getMessage();	
 		}
+		
+	}
+		
+		// Verify Mojio Id selected was assigned to the vehicle (My Vehicles)
+		
+		public String verifyMojioId(String object, String data) {
+			APP_LOGS.debug ("Verify if the vehicle was assigned to the right Mojio ");
+			try{
+				String data1= "359878765633665";
+				Select select = new Select(driver.findElement(By.xpath(OR.getProperty(object))));
+				WebElement option = select.getFirstSelectedOption(); 
+				String data2 = option.getText() ;	
+				System.out.println(data2);
+				if (data2.equalsIgnoreCase(data1))
+				return Constants.KEYWORD_PASS;
+				else
+					return Constants.KEYWORD_FAIL;
+	           }
+				catch(Exception e){
+					return Constants.KEYWORD_FAIL+e.getMessage();								
+		       }
 	}
 
 
@@ -364,14 +385,35 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+	
+	// Verify if the vehicle was assigned to the right Mojio
+	
+	public String verifyVehicleId(String object, String data) {
+		APP_LOGS.debug ("Verify if the vehicle was assigned to the right Mojio ");
+		try{
+			String data1=currentDate1();
+			Select select = new Select(driver.findElement(By.id(OR.getProperty(object))));
+			WebElement option = select.getFirstSelectedOption(); 
+			String data2 = option.getText() ;	
+			if (data1.equalsIgnoreCase(data2))
+			return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+           }
+			catch(Exception e){
+				return Constants.KEYWORD_FAIL+e.getMessage();								
+	       }
+	}
 
-	//Write the IMEI using current date and time
+			//Write the IMEI using current date and time
+	
 	public String writeCurrentDateIMEIById(String object, String data){
 		APP_LOGS.debug("Write the IMEI using current date and time");
 		try{
 			String data1=currentDate1();
 			String data2=data1.substring(3);
-			String data3="999"+data2;
+			String data4="2345";
+			String data3="999"+data2+data4;
 			driver.findElement(By.id(OR.getProperty(object))).sendKeys(data3);
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
@@ -491,6 +533,21 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+	
+	// Write the imported IMEI
+	
+			public  String writeInIMEIAfterImport(String object,String data){
+				APP_LOGS.debug("Write the imported IMEI");
+				try{
+				    String	data1 = "359878765633665" ;
+					driver.findElement(By.id(OR.getProperty(object))).sendKeys(data1); 
+				   }
+					catch(Exception e){
+						return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
+
+	               }
+				    return Constants.KEYWORD_PASS;
+    }
 
 	//Write data in text box, text area by Xpath
 	public  String writeInInputByXpath(String object,String data){
@@ -504,6 +561,10 @@ public class Keywords {
 		}
 		return Constants.KEYWORD_PASS;
 	}
+		
+		
+		
+	
 
 
 
@@ -554,8 +615,23 @@ public class Keywords {
 		}catch(Exception e){
 			return Constants.KEYWORD_FAIL+" Not able to choose value based on value attrobute using Name";
 		}
-		return Constants.KEYWORD_PASS;
-	} 
+	
+	 return Constants.KEYWORD_PASS; 
+	 
+	  }
+		
+		// Select an IMEI value from My Vehicles drop-down
+		public String selectIMEIValue(String object, String data){
+			APP_LOGS.debug("Choose value from dropdown based on value using Name");
+			try{
+				String data1 = "359878765633665";
+			     driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
+			   }
+			     catch(Exception e){
+						return Constants.KEYWORD_FAIL+" Not able to choose value based on value attrobute using Name";
+					}
+					return Constants.KEYWORD_PASS;
+	    } 
 
 	//------------------------------------------Get Text of Web element and verify It------------------------------------------
 
