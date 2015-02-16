@@ -93,7 +93,7 @@ public class Keywords {
 
 
 	//Close the browser
-	public  String closeBroswer(String object, String data){
+	public  String closebrowser(String object, String data){
 		APP_LOGS.debug("Closing the browser");
 		try{
 			driver.quit();
@@ -354,13 +354,13 @@ public class Keywords {
 	}
 	
 	
+	
 	// Verify if the vehicle was assigned to the right Mojio
 	
 		public String verifyVehicleId(String object, String data) {
 			APP_LOGS.debug ("Verify if the vehicle was assigned to the right Mojio ");
 			try{
 				String data1=currentDate1();
-				System.out.println(data1);
 				Select select = new Select(driver.findElement(By.id(OR.getProperty(object))));
 				WebElement option = select.getFirstSelectedOption(); 
 				String data2 = option.getText() ;	
@@ -394,6 +394,8 @@ public class Keywords {
 				catch(Exception e){
 					return Constants.KEYWORD_FAIL+e.getMessage();								
 		       }
+			
+			// 
 			
 			
 	}
@@ -613,7 +615,8 @@ public class Keywords {
 			}
 			return Constants.KEYWORD_PASS;
 		}
-			
+		
+		
 	// Input a random email each time while creating an account by Id
 			public String writeRandomUsernameById(String object, String data){
 				APP_LOGS.debug("Write a random username Id");
@@ -624,17 +627,12 @@ public class Keywords {
 					return Constants.KEYWORD_FAIL+" Unable to write "+e.getMessage();
 				}
 				return Constants.KEYWORD_PASS;
+				
+     
 			
-    }
+   }
 		
 		
-	
-		
-		
-		
-	
-
-
 
 	//------------------------------------------Dropdown Functions-----------------------------------------------
 
@@ -702,6 +700,8 @@ public class Keywords {
 						return Constants.KEYWORD_FAIL+" Not able to choose value based on value attrobute using Name";
 					}
 					return Constants.KEYWORD_PASS;
+					
+					
 	    } 
 
 	//------------------------------------------Get Text of Web element and verify It------------------------------------------
@@ -732,6 +732,25 @@ public class Keywords {
 		}
 	}
 
+	// Function to verify the text of the selected value of a drop-down
+	public String verifyMojioIdEditVehicle(String object, String data) {
+		APP_LOGS.debug ("Verify if the vehicle was assigned to the right Mojio ");
+		try{
+			
+			Select select = new Select(driver.findElement(By.xpath(OR.getProperty(object))));
+			WebElement option = select.getFirstSelectedOption(); 
+			String data5 = option.getText() ;	
+			if (text2.equals(data5))
+			return Constants.KEYWORD_PASS;
+			else
+				return Constants.KEYWORD_FAIL;
+           }
+			catch(Exception e){
+				return Constants.KEYWORD_FAIL+e.getMessage();								
+	       }
+	}
+	
+	
 	//Function to retrieve text from read-only field-- By Xpath
 	public String getTextXpath(String object, String data){
 		APP_LOGS.debug("Function to retrieve text from read-only field- By Xpath");

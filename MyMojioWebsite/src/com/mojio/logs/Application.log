@@ -1,97 +1,438 @@
-12/02/2015 17:53:33 devpinoyLogger Hello
-12/02/2015 17:53:33 devpinoyLogger Properties loaded. Starting testing
-12/02/2015 17:53:33 devpinoyLogger Intialize Suite xlsx
-12/02/2015 17:53:33 devpinoyLogger CreateAccount -- N
-12/02/2015 17:53:33 devpinoyLogger SignIn -- N
-12/02/2015 17:53:33 devpinoyLogger Home_Page -- N
-12/02/2015 17:53:33 devpinoyLogger MyProfile -- N
-12/02/2015 17:53:33 devpinoyLogger Dashboard_Page -- N
-12/02/2015 17:53:33 devpinoyLogger RightHandPanel -- N
-12/02/2015 17:53:33 devpinoyLogger LeftHandPanel -- N
-12/02/2015 17:53:33 devpinoyLogger MyVehicles -- N
-12/02/2015 17:53:33 devpinoyLogger MyMojios -- N
-12/02/2015 17:53:33 devpinoyLogger ClaimMojio -- Y
-12/02/2015 17:53:33 devpinoyLogger ******Executing the Suite******ClaimMojio
-12/02/2015 17:53:33 devpinoyLogger SignIn -- Y
-12/02/2015 17:53:33 devpinoyLogger Executing the test case -> SignIn
-12/02/2015 17:53:33 devpinoyLogger Iteration number 1
-12/02/2015 17:53:33 devpinoyLogger openBrowser
-12/02/2015 17:53:33 devpinoyLogger Opening browser
-12/02/2015 17:53:38 devpinoyLogger PASS
-12/02/2015 17:53:38 devpinoyLogger navigate
-12/02/2015 17:53:38 devpinoyLogger Navigating to URL
-12/02/2015 17:53:55 devpinoyLogger PASS
-12/02/2015 17:53:55 devpinoyLogger isTextPresent
-12/02/2015 17:53:55 devpinoyLogger Verify if the text is present in page
-12/02/2015 17:53:55 devpinoyLogger PASS
-12/02/2015 17:53:55 devpinoyLogger writeInInput
-12/02/2015 17:53:55 devpinoyLogger Write data in text box, text area
-12/02/2015 17:53:55 devpinoyLogger PASS
-12/02/2015 17:53:55 devpinoyLogger writeInInput
-12/02/2015 17:53:55 devpinoyLogger Write data in text box, text area
-12/02/2015 17:53:55 devpinoyLogger PASS
-12/02/2015 17:53:55 devpinoyLogger clickByXpath
-12/02/2015 17:53:55 devpinoyLogger Clicking using xpath attribute
-12/02/2015 17:53:58 devpinoyLogger PASS
-12/02/2015 17:53:58 devpinoyLogger isTextPresent
-12/02/2015 17:53:58 devpinoyLogger Verify if the text is present in page
-12/02/2015 17:53:58 devpinoyLogger PASS
-12/02/2015 17:53:59 devpinoyLogger NavigateClaimMojio -- Y
-12/02/2015 17:53:59 devpinoyLogger Executing the test case -> NavigateClaimMojio
-12/02/2015 17:53:59 devpinoyLogger Iteration number 1
-12/02/2015 17:53:59 devpinoyLogger navigate
-12/02/2015 17:53:59 devpinoyLogger Navigating to URL
-12/02/2015 17:54:00 devpinoyLogger PASS
-12/02/2015 17:54:00 devpinoyLogger clickByID
-12/02/2015 17:54:00 devpinoyLogger clicking using ID attribute
-12/02/2015 17:54:00 devpinoyLogger PASS
-12/02/2015 17:54:00 devpinoyLogger clickByXpath
-12/02/2015 17:54:00 devpinoyLogger Clicking using xpath attribute
-12/02/2015 17:54:01 devpinoyLogger PASS
-12/02/2015 17:54:01 devpinoyLogger verifyCurrentUrl
-12/02/2015 17:54:01 devpinoyLogger Verify the Current url
-12/02/2015 17:54:01 devpinoyLogger PASS
-12/02/2015 17:54:01 devpinoyLogger isTextPresent
-12/02/2015 17:54:01 devpinoyLogger Verify if the text is present in page
-12/02/2015 17:54:01 devpinoyLogger PASS
-12/02/2015 17:54:01 devpinoyLogger ClaimMojioSubmit -- Y
-12/02/2015 17:54:01 devpinoyLogger Executing the test case -> ClaimMojioSubmit
-12/02/2015 17:54:01 devpinoyLogger Iteration number 1
-12/02/2015 17:54:01 devpinoyLogger navigate
-12/02/2015 17:54:01 devpinoyLogger Navigating to URL
-12/02/2015 17:54:02 devpinoyLogger PASS
-12/02/2015 17:54:02 devpinoyLogger clickByID
-12/02/2015 17:54:02 devpinoyLogger clicking using ID attribute
-12/02/2015 17:54:02 devpinoyLogger PASS
-12/02/2015 17:54:02 devpinoyLogger clickByXpath
-12/02/2015 17:54:02 devpinoyLogger Clicking using xpath attribute
-12/02/2015 17:54:03 devpinoyLogger PASS
-12/02/2015 17:54:03 devpinoyLogger writeCurrentDateIMEIById
-12/02/2015 17:54:03 devpinoyLogger Write the IMEI using current date and time
-12/02/2015 17:54:03 devpinoyLogger PASS
-12/02/2015 17:54:03 devpinoyLogger clickByID
-12/02/2015 17:54:03 devpinoyLogger clicking using ID attribute
-12/02/2015 17:54:05 devpinoyLogger PASS
-12/02/2015 17:54:05 devpinoyLogger isTextPresent
-12/02/2015 17:54:05 devpinoyLogger Verify if the text is present in page
-12/02/2015 17:54:05 devpinoyLogger FAIL
-12/02/2015 17:54:05 devpinoyLogger taking screen shot according to config
-12/02/2015 17:54:05 devpinoyLogger ClaimMojioCancel -- N
-12/02/2015 17:54:05 devpinoyLogger InvalidIMEISubmit -- N
-12/02/2015 17:54:05 devpinoyLogger IMEIBlankSubmit -- N
-12/02/2015 17:54:05 devpinoyLogger BillingInformation -- N
-12/02/2015 17:54:05 devpinoyLogger Contact_Support -- N
-12/02/2015 17:54:05 devpinoyLogger MojioShop -- N
-12/02/2015 17:54:05 devpinoyLogger MyOrders -- N
-12/02/2015 17:54:05 devpinoyLogger LocateVehicle -- N
-12/02/2015 17:54:05 devpinoyLogger TripHistory -- N
-12/02/2015 17:54:05 devpinoyLogger SendFeedback -- N
-12/02/2015 17:54:05 devpinoyLogger Settings -- N
-12/02/2015 17:54:05 devpinoyLogger AdminSearch -- N
-12/02/2015 17:54:05 devpinoyLogger AdminDashboard -- N
-12/02/2015 17:54:05 devpinoyLogger ReplayEvent -- N
-12/02/2015 17:54:05 devpinoyLogger ReplayReport -- N
-12/02/2015 17:54:05 devpinoyLogger ImportSIMs -- N
-12/02/2015 17:54:05 devpinoyLogger ImportMojio -- N
-12/02/2015 17:54:05 devpinoyLogger ExportEvents -- N
-12/02/2015 17:54:05 devpinoyLogger DeviceManager -- N
+16/02/2015 20:09:25 devpinoyLogger Hello
+16/02/2015 20:09:25 devpinoyLogger Properties loaded. Starting testing
+16/02/2015 20:09:25 devpinoyLogger Intialize Suite xlsx
+16/02/2015 20:09:26 devpinoyLogger CreateAccount -- N
+16/02/2015 20:09:26 devpinoyLogger SignIn -- N
+16/02/2015 20:09:26 devpinoyLogger Home_Page -- N
+16/02/2015 20:09:26 devpinoyLogger MyProfile -- N
+16/02/2015 20:09:26 devpinoyLogger Dashboard_Page -- N
+16/02/2015 20:09:26 devpinoyLogger RightHandPanel -- N
+16/02/2015 20:09:26 devpinoyLogger LeftHandPanel -- N
+16/02/2015 20:09:26 devpinoyLogger MyVehicles -- N
+16/02/2015 20:09:26 devpinoyLogger MyMojios -- N
+16/02/2015 20:09:26 devpinoyLogger ClaimMojio -- N
+16/02/2015 20:09:26 devpinoyLogger BillingInformation -- N
+16/02/2015 20:09:26 devpinoyLogger Contact_Support -- Y
+16/02/2015 20:09:26 devpinoyLogger ******Executing the Suite******Contact_Support
+16/02/2015 20:09:26 devpinoyLogger SignIn -- Y
+16/02/2015 20:09:26 devpinoyLogger Executing the test case -> SignIn
+16/02/2015 20:09:26 devpinoyLogger Iteration number 1
+16/02/2015 20:09:26 devpinoyLogger openBrowser
+16/02/2015 20:09:26 devpinoyLogger Opening browser
+16/02/2015 20:09:37 devpinoyLogger PASS
+16/02/2015 20:09:37 devpinoyLogger navigate
+16/02/2015 20:09:37 devpinoyLogger Navigating to URL
+16/02/2015 20:09:49 devpinoyLogger PASS
+16/02/2015 20:09:49 devpinoyLogger isTextPresent
+16/02/2015 20:09:49 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:09:49 devpinoyLogger PASS
+16/02/2015 20:09:49 devpinoyLogger writeInInput
+16/02/2015 20:09:49 devpinoyLogger Write data in text box, text area
+16/02/2015 20:09:49 devpinoyLogger PASS
+16/02/2015 20:09:49 devpinoyLogger writeInInput
+16/02/2015 20:09:49 devpinoyLogger Write data in text box, text area
+16/02/2015 20:09:49 devpinoyLogger PASS
+16/02/2015 20:09:49 devpinoyLogger clickByXpath
+16/02/2015 20:09:49 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:09:57 devpinoyLogger PASS
+16/02/2015 20:09:57 devpinoyLogger isTextPresent
+16/02/2015 20:09:57 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:09:57 devpinoyLogger PASS
+16/02/2015 20:09:57 devpinoyLogger NavigateContactSupport -- Y
+16/02/2015 20:09:57 devpinoyLogger Executing the test case -> NavigateContactSupport
+16/02/2015 20:09:57 devpinoyLogger Iteration number 1
+16/02/2015 20:09:57 devpinoyLogger navigate
+16/02/2015 20:09:57 devpinoyLogger Navigating to URL
+16/02/2015 20:09:59 devpinoyLogger PASS
+16/02/2015 20:09:59 devpinoyLogger clickByID
+16/02/2015 20:09:59 devpinoyLogger clicking using ID attribute
+16/02/2015 20:09:59 devpinoyLogger PASS
+16/02/2015 20:09:59 devpinoyLogger clickByXpath
+16/02/2015 20:09:59 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:10:01 devpinoyLogger PASS
+16/02/2015 20:10:01 devpinoyLogger verifyCurrentUrl
+16/02/2015 20:10:01 devpinoyLogger Verify the Current url
+16/02/2015 20:10:01 devpinoyLogger PASS
+16/02/2015 20:10:01 devpinoyLogger isTextPresent
+16/02/2015 20:10:01 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:01 devpinoyLogger PASS
+16/02/2015 20:10:01 devpinoyLogger closebrowser
+16/02/2015 20:10:01 devpinoyLogger Closing the browser
+16/02/2015 20:10:01 devpinoyLogger PASS
+16/02/2015 20:10:02 devpinoyLogger EmailMojioSupport -- Y
+16/02/2015 20:10:02 devpinoyLogger Executing the test case -> EmailMojioSupport
+16/02/2015 20:10:02 devpinoyLogger Iteration number 1
+16/02/2015 20:10:02 devpinoyLogger openBrowser
+16/02/2015 20:10:02 devpinoyLogger Opening browser
+16/02/2015 20:10:06 devpinoyLogger PASS
+16/02/2015 20:10:06 devpinoyLogger navigate
+16/02/2015 20:10:06 devpinoyLogger Navigating to URL
+16/02/2015 20:10:17 devpinoyLogger PASS
+16/02/2015 20:10:17 devpinoyLogger isTextPresent
+16/02/2015 20:10:17 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:17 devpinoyLogger PASS
+16/02/2015 20:10:17 devpinoyLogger writeInInput
+16/02/2015 20:10:17 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:17 devpinoyLogger PASS
+16/02/2015 20:10:17 devpinoyLogger writeInInput
+16/02/2015 20:10:17 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:17 devpinoyLogger PASS
+16/02/2015 20:10:17 devpinoyLogger clickByXpath
+16/02/2015 20:10:17 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:10:22 devpinoyLogger PASS
+16/02/2015 20:10:22 devpinoyLogger navigate
+16/02/2015 20:10:22 devpinoyLogger Navigating to URL
+16/02/2015 20:10:24 devpinoyLogger PASS
+16/02/2015 20:10:24 devpinoyLogger clickByID
+16/02/2015 20:10:24 devpinoyLogger clicking using ID attribute
+16/02/2015 20:10:24 devpinoyLogger PASS
+16/02/2015 20:10:24 devpinoyLogger clickByXpath
+16/02/2015 20:10:24 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:10:25 devpinoyLogger PASS
+16/02/2015 20:10:25 devpinoyLogger isTextPresent
+16/02/2015 20:10:25 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:25 devpinoyLogger PASS
+16/02/2015 20:10:25 devpinoyLogger writeInInput
+16/02/2015 20:10:25 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:25 devpinoyLogger PASS
+16/02/2015 20:10:25 devpinoyLogger writeInInput
+16/02/2015 20:10:25 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:25 devpinoyLogger PASS
+16/02/2015 20:10:25 devpinoyLogger writeInInput
+16/02/2015 20:10:25 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:25 devpinoyLogger PASS
+16/02/2015 20:10:25 devpinoyLogger writeInInput
+16/02/2015 20:10:25 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:26 devpinoyLogger PASS
+16/02/2015 20:10:26 devpinoyLogger clickByID
+16/02/2015 20:10:26 devpinoyLogger clicking using ID attribute
+16/02/2015 20:10:28 devpinoyLogger PASS
+16/02/2015 20:10:28 devpinoyLogger isTextPresent
+16/02/2015 20:10:28 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:28 devpinoyLogger PASS
+16/02/2015 20:10:28 devpinoyLogger closebrowser
+16/02/2015 20:10:28 devpinoyLogger Closing the browser
+16/02/2015 20:10:28 devpinoyLogger PASS
+16/02/2015 20:10:29 devpinoyLogger InvalidEmail -- Y
+16/02/2015 20:10:29 devpinoyLogger Executing the test case -> InvalidEmail
+16/02/2015 20:10:29 devpinoyLogger Iteration number 1
+16/02/2015 20:10:29 devpinoyLogger openBrowser
+16/02/2015 20:10:29 devpinoyLogger Opening browser
+16/02/2015 20:10:32 devpinoyLogger PASS
+16/02/2015 20:10:32 devpinoyLogger navigate
+16/02/2015 20:10:32 devpinoyLogger Navigating to URL
+16/02/2015 20:10:44 devpinoyLogger PASS
+16/02/2015 20:10:44 devpinoyLogger isTextPresent
+16/02/2015 20:10:44 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:44 devpinoyLogger PASS
+16/02/2015 20:10:44 devpinoyLogger writeInInput
+16/02/2015 20:10:44 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:44 devpinoyLogger PASS
+16/02/2015 20:10:44 devpinoyLogger writeInInput
+16/02/2015 20:10:44 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:44 devpinoyLogger PASS
+16/02/2015 20:10:44 devpinoyLogger clickByXpath
+16/02/2015 20:10:44 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:10:52 devpinoyLogger PASS
+16/02/2015 20:10:52 devpinoyLogger navigate
+16/02/2015 20:10:52 devpinoyLogger Navigating to URL
+16/02/2015 20:10:54 devpinoyLogger PASS
+16/02/2015 20:10:54 devpinoyLogger clickByID
+16/02/2015 20:10:54 devpinoyLogger clicking using ID attribute
+16/02/2015 20:10:54 devpinoyLogger PASS
+16/02/2015 20:10:54 devpinoyLogger clickByXpath
+16/02/2015 20:10:54 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger isTextPresent
+16/02/2015 20:10:56 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger writeInInput
+16/02/2015 20:10:56 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger writeInInput
+16/02/2015 20:10:56 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger writeInInput
+16/02/2015 20:10:56 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger writeInInput
+16/02/2015 20:10:56 devpinoyLogger Write data in text box, text area
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger clickByID
+16/02/2015 20:10:56 devpinoyLogger clicking using ID attribute
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger isTextPresent
+16/02/2015 20:10:56 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:56 devpinoyLogger closebrowser
+16/02/2015 20:10:56 devpinoyLogger Closing the browser
+16/02/2015 20:10:56 devpinoyLogger PASS
+16/02/2015 20:10:57 devpinoyLogger NameEmpty -- Y
+16/02/2015 20:10:57 devpinoyLogger Executing the test case -> NameEmpty
+16/02/2015 20:10:57 devpinoyLogger Iteration number 1
+16/02/2015 20:10:57 devpinoyLogger openBrowser
+16/02/2015 20:10:57 devpinoyLogger Opening browser
+16/02/2015 20:11:02 devpinoyLogger PASS
+16/02/2015 20:11:02 devpinoyLogger navigate
+16/02/2015 20:11:02 devpinoyLogger Navigating to URL
+16/02/2015 20:11:15 devpinoyLogger PASS
+16/02/2015 20:11:15 devpinoyLogger isTextPresent
+16/02/2015 20:11:15 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:15 devpinoyLogger PASS
+16/02/2015 20:11:15 devpinoyLogger writeInInput
+16/02/2015 20:11:15 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:15 devpinoyLogger PASS
+16/02/2015 20:11:15 devpinoyLogger writeInInput
+16/02/2015 20:11:15 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:15 devpinoyLogger PASS
+16/02/2015 20:11:15 devpinoyLogger clickByXpath
+16/02/2015 20:11:15 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:11:24 devpinoyLogger PASS
+16/02/2015 20:11:24 devpinoyLogger navigate
+16/02/2015 20:11:24 devpinoyLogger Navigating to URL
+16/02/2015 20:11:26 devpinoyLogger PASS
+16/02/2015 20:11:26 devpinoyLogger clickByID
+16/02/2015 20:11:26 devpinoyLogger clicking using ID attribute
+16/02/2015 20:11:26 devpinoyLogger PASS
+16/02/2015 20:11:26 devpinoyLogger clickByXpath
+16/02/2015 20:11:26 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:11:27 devpinoyLogger PASS
+16/02/2015 20:11:27 devpinoyLogger isTextPresent
+16/02/2015 20:11:27 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:27 devpinoyLogger PASS
+16/02/2015 20:11:27 devpinoyLogger writeInInput
+16/02/2015 20:11:27 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:28 devpinoyLogger writeInInput
+16/02/2015 20:11:28 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:28 devpinoyLogger writeInInput
+16/02/2015 20:11:28 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:28 devpinoyLogger clickByID
+16/02/2015 20:11:28 devpinoyLogger clicking using ID attribute
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:28 devpinoyLogger isTextPresent
+16/02/2015 20:11:28 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:28 devpinoyLogger closebrowser
+16/02/2015 20:11:28 devpinoyLogger Closing the browser
+16/02/2015 20:11:28 devpinoyLogger PASS
+16/02/2015 20:11:29 devpinoyLogger EmailEmpty -- Y
+16/02/2015 20:11:29 devpinoyLogger Executing the test case -> EmailEmpty
+16/02/2015 20:11:29 devpinoyLogger Iteration number 1
+16/02/2015 20:11:29 devpinoyLogger openBrowser
+16/02/2015 20:11:29 devpinoyLogger Opening browser
+16/02/2015 20:11:33 devpinoyLogger PASS
+16/02/2015 20:11:33 devpinoyLogger navigate
+16/02/2015 20:11:33 devpinoyLogger Navigating to URL
+16/02/2015 20:11:44 devpinoyLogger PASS
+16/02/2015 20:11:44 devpinoyLogger isTextPresent
+16/02/2015 20:11:44 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:44 devpinoyLogger PASS
+16/02/2015 20:11:44 devpinoyLogger writeInInput
+16/02/2015 20:11:44 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:45 devpinoyLogger PASS
+16/02/2015 20:11:45 devpinoyLogger writeInInput
+16/02/2015 20:11:45 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:45 devpinoyLogger PASS
+16/02/2015 20:11:45 devpinoyLogger clickByXpath
+16/02/2015 20:11:45 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:11:55 devpinoyLogger PASS
+16/02/2015 20:11:55 devpinoyLogger navigate
+16/02/2015 20:11:55 devpinoyLogger Navigating to URL
+16/02/2015 20:11:56 devpinoyLogger PASS
+16/02/2015 20:11:56 devpinoyLogger clickByID
+16/02/2015 20:11:56 devpinoyLogger clicking using ID attribute
+16/02/2015 20:11:56 devpinoyLogger PASS
+16/02/2015 20:11:56 devpinoyLogger clickByXpath
+16/02/2015 20:11:56 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger isTextPresent
+16/02/2015 20:11:58 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger writeInInput
+16/02/2015 20:11:58 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger writeInInput
+16/02/2015 20:11:58 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger writeInInput
+16/02/2015 20:11:58 devpinoyLogger Write data in text box, text area
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger clickByID
+16/02/2015 20:11:58 devpinoyLogger clicking using ID attribute
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger isTextPresent
+16/02/2015 20:11:58 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:58 devpinoyLogger closebrowser
+16/02/2015 20:11:58 devpinoyLogger Closing the browser
+16/02/2015 20:11:58 devpinoyLogger PASS
+16/02/2015 20:11:59 devpinoyLogger SubjectEmpty -- Y
+16/02/2015 20:11:59 devpinoyLogger Executing the test case -> SubjectEmpty
+16/02/2015 20:11:59 devpinoyLogger Iteration number 1
+16/02/2015 20:11:59 devpinoyLogger openBrowser
+16/02/2015 20:11:59 devpinoyLogger Opening browser
+16/02/2015 20:12:04 devpinoyLogger PASS
+16/02/2015 20:12:04 devpinoyLogger navigate
+16/02/2015 20:12:04 devpinoyLogger Navigating to URL
+16/02/2015 20:12:21 devpinoyLogger PASS
+16/02/2015 20:12:21 devpinoyLogger isTextPresent
+16/02/2015 20:12:21 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:12:21 devpinoyLogger PASS
+16/02/2015 20:12:21 devpinoyLogger writeInInput
+16/02/2015 20:12:21 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:21 devpinoyLogger PASS
+16/02/2015 20:12:21 devpinoyLogger writeInInput
+16/02/2015 20:12:21 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:21 devpinoyLogger PASS
+16/02/2015 20:12:21 devpinoyLogger clickByXpath
+16/02/2015 20:12:21 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:12:28 devpinoyLogger PASS
+16/02/2015 20:12:28 devpinoyLogger navigate
+16/02/2015 20:12:28 devpinoyLogger Navigating to URL
+16/02/2015 20:12:29 devpinoyLogger PASS
+16/02/2015 20:12:29 devpinoyLogger clickByID
+16/02/2015 20:12:29 devpinoyLogger clicking using ID attribute
+16/02/2015 20:12:30 devpinoyLogger PASS
+16/02/2015 20:12:30 devpinoyLogger clickByXpath
+16/02/2015 20:12:30 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:12:30 devpinoyLogger PASS
+16/02/2015 20:12:30 devpinoyLogger isTextPresent
+16/02/2015 20:12:30 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger writeInInput
+16/02/2015 20:12:31 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger writeInInput
+16/02/2015 20:12:31 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger writeInInput
+16/02/2015 20:12:31 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger clickByID
+16/02/2015 20:12:31 devpinoyLogger clicking using ID attribute
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger isTextPresent
+16/02/2015 20:12:31 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:31 devpinoyLogger closebrowser
+16/02/2015 20:12:31 devpinoyLogger Closing the browser
+16/02/2015 20:12:31 devpinoyLogger PASS
+16/02/2015 20:12:32 devpinoyLogger MessageEmpty -- Y
+16/02/2015 20:12:32 devpinoyLogger Executing the test case -> MessageEmpty
+16/02/2015 20:12:32 devpinoyLogger Iteration number 1
+16/02/2015 20:12:32 devpinoyLogger openBrowser
+16/02/2015 20:12:32 devpinoyLogger Opening browser
+16/02/2015 20:12:36 devpinoyLogger PASS
+16/02/2015 20:12:36 devpinoyLogger navigate
+16/02/2015 20:12:36 devpinoyLogger Navigating to URL
+16/02/2015 20:12:50 devpinoyLogger PASS
+16/02/2015 20:12:50 devpinoyLogger isTextPresent
+16/02/2015 20:12:50 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:12:50 devpinoyLogger PASS
+16/02/2015 20:12:50 devpinoyLogger writeInInput
+16/02/2015 20:12:50 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:50 devpinoyLogger PASS
+16/02/2015 20:12:50 devpinoyLogger writeInInput
+16/02/2015 20:12:50 devpinoyLogger Write data in text box, text area
+16/02/2015 20:12:50 devpinoyLogger PASS
+16/02/2015 20:12:50 devpinoyLogger clickByXpath
+16/02/2015 20:12:50 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:12:57 devpinoyLogger PASS
+16/02/2015 20:12:57 devpinoyLogger navigate
+16/02/2015 20:12:57 devpinoyLogger Navigating to URL
+16/02/2015 20:12:58 devpinoyLogger PASS
+16/02/2015 20:12:58 devpinoyLogger clickByID
+16/02/2015 20:12:58 devpinoyLogger clicking using ID attribute
+16/02/2015 20:12:58 devpinoyLogger PASS
+16/02/2015 20:12:58 devpinoyLogger clickByXpath
+16/02/2015 20:12:58 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger isTextPresent
+16/02/2015 20:13:00 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger writeInInput
+16/02/2015 20:13:00 devpinoyLogger Write data in text box, text area
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger writeInInput
+16/02/2015 20:13:00 devpinoyLogger Write data in text box, text area
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger writeInInput
+16/02/2015 20:13:00 devpinoyLogger Write data in text box, text area
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger clickByID
+16/02/2015 20:13:00 devpinoyLogger clicking using ID attribute
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger isTextPresent
+16/02/2015 20:13:00 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:13:00 devpinoyLogger PASS
+16/02/2015 20:13:00 devpinoyLogger closebrowser
+16/02/2015 20:13:00 devpinoyLogger Closing the browser
+16/02/2015 20:13:01 devpinoyLogger PASS
+16/02/2015 20:13:02 devpinoyLogger AllFieldsEmpty -- Y
+16/02/2015 20:13:02 devpinoyLogger Executing the test case -> AllFieldsEmpty
+16/02/2015 20:13:02 devpinoyLogger Iteration number 1
+16/02/2015 20:13:02 devpinoyLogger openBrowser
+16/02/2015 20:13:02 devpinoyLogger Opening browser
+16/02/2015 20:13:05 devpinoyLogger PASS
+16/02/2015 20:13:05 devpinoyLogger navigate
+16/02/2015 20:13:05 devpinoyLogger Navigating to URL
+16/02/2015 20:13:20 devpinoyLogger PASS
+16/02/2015 20:13:20 devpinoyLogger isTextPresent
+16/02/2015 20:13:20 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:13:20 devpinoyLogger PASS
+16/02/2015 20:13:20 devpinoyLogger writeInInput
+16/02/2015 20:13:20 devpinoyLogger Write data in text box, text area
+16/02/2015 20:13:20 devpinoyLogger PASS
+16/02/2015 20:13:20 devpinoyLogger writeInInput
+16/02/2015 20:13:20 devpinoyLogger Write data in text box, text area
+16/02/2015 20:13:20 devpinoyLogger PASS
+16/02/2015 20:13:20 devpinoyLogger clickByXpath
+16/02/2015 20:13:20 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:13:29 devpinoyLogger PASS
+16/02/2015 20:13:29 devpinoyLogger navigate
+16/02/2015 20:13:29 devpinoyLogger Navigating to URL
+16/02/2015 20:13:30 devpinoyLogger PASS
+16/02/2015 20:13:30 devpinoyLogger clickByID
+16/02/2015 20:13:30 devpinoyLogger clicking using ID attribute
+16/02/2015 20:13:30 devpinoyLogger PASS
+16/02/2015 20:13:30 devpinoyLogger clickByXpath
+16/02/2015 20:13:30 devpinoyLogger Clicking using xpath attribute
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger isTextPresent
+16/02/2015 20:13:32 devpinoyLogger Verify if the text is present in page
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger clickByID
+16/02/2015 20:13:32 devpinoyLogger clicking using ID attribute
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger verifyTextByXpath
+16/02/2015 20:13:32 devpinoyLogger Verify if the text is present in a object
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger verifyTextByXpath
+16/02/2015 20:13:32 devpinoyLogger Verify if the text is present in a object
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger verifyTextByXpath
+16/02/2015 20:13:32 devpinoyLogger Verify if the text is present in a object
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger verifyTextByXpath
+16/02/2015 20:13:32 devpinoyLogger Verify if the text is present in a object
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:32 devpinoyLogger closebrowser
+16/02/2015 20:13:32 devpinoyLogger Closing the browser
+16/02/2015 20:13:32 devpinoyLogger PASS
+16/02/2015 20:13:33 devpinoyLogger MojioShop -- N
+16/02/2015 20:13:33 devpinoyLogger MyOrders -- N
+16/02/2015 20:13:33 devpinoyLogger LocateVehicle -- N
+16/02/2015 20:13:33 devpinoyLogger TripHistory -- N
+16/02/2015 20:13:33 devpinoyLogger SendFeedback -- N
+16/02/2015 20:13:33 devpinoyLogger Settings -- N
+16/02/2015 20:13:33 devpinoyLogger AdminSearch -- N
+16/02/2015 20:13:33 devpinoyLogger AdminDashboard -- N
+16/02/2015 20:13:33 devpinoyLogger ReplayEvent -- N
+16/02/2015 20:13:33 devpinoyLogger ReplayReport -- N
+16/02/2015 20:13:33 devpinoyLogger ImportSIMs -- N
+16/02/2015 20:13:33 devpinoyLogger ImportMojio -- N
+16/02/2015 20:13:33 devpinoyLogger ExportEvents -- N
+16/02/2015 20:13:33 devpinoyLogger DeviceManager -- N
