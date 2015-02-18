@@ -1,93 +1,142 @@
-17/02/2015 20:21:37 devpinoyLogger Hello
-17/02/2015 20:21:37 devpinoyLogger Properties loaded. Starting testing
-17/02/2015 20:21:37 devpinoyLogger Intialize Suite xlsx
-17/02/2015 20:21:37 devpinoyLogger CreateAccount -- N
-17/02/2015 20:21:37 devpinoyLogger SignIn -- N
-17/02/2015 20:21:37 devpinoyLogger Home_Page -- N
-17/02/2015 20:21:37 devpinoyLogger MyProfile -- N
-17/02/2015 20:21:37 devpinoyLogger Dashboard_Page -- N
-17/02/2015 20:21:37 devpinoyLogger RightHandPanel -- N
-17/02/2015 20:21:37 devpinoyLogger LeftHandPanel -- N
-17/02/2015 20:21:37 devpinoyLogger MyVehicles -- N
-17/02/2015 20:21:37 devpinoyLogger MyMojios -- N
-17/02/2015 20:21:37 devpinoyLogger ClaimMojio -- N
-17/02/2015 20:21:37 devpinoyLogger BillingInformation -- N
-17/02/2015 20:21:37 devpinoyLogger FAQ -- N
-17/02/2015 20:21:37 devpinoyLogger Contact_Support -- N
-17/02/2015 20:21:37 devpinoyLogger MojioShop -- N
-17/02/2015 20:21:37 devpinoyLogger MyOrders -- N
-17/02/2015 20:21:37 devpinoyLogger LocateVehicle -- N
-17/02/2015 20:21:37 devpinoyLogger TripHistory -- N
-17/02/2015 20:21:37 devpinoyLogger SendFeedback -- Y
-17/02/2015 20:21:37 devpinoyLogger ******Executing the Suite******SendFeedback
-17/02/2015 20:21:37 devpinoyLogger SignIn -- N
-17/02/2015 20:21:37 devpinoyLogger NavigateContactSupport -- N
-17/02/2015 20:21:37 devpinoyLogger EmailMojioSupport -- Y
-17/02/2015 20:21:37 devpinoyLogger Executing the test case -> EmailMojioSupport
-17/02/2015 20:21:37 devpinoyLogger Iteration number 1
-17/02/2015 20:21:37 devpinoyLogger openBrowser
-17/02/2015 20:21:37 devpinoyLogger Opening browser
-17/02/2015 20:21:45 devpinoyLogger PASS
-17/02/2015 20:21:45 devpinoyLogger navigate
-17/02/2015 20:21:45 devpinoyLogger Navigating to URL
-17/02/2015 20:21:56 devpinoyLogger PASS
-17/02/2015 20:21:56 devpinoyLogger isTextPresent
-17/02/2015 20:21:56 devpinoyLogger Verify if the text is present in page
-17/02/2015 20:21:56 devpinoyLogger PASS
-17/02/2015 20:21:56 devpinoyLogger writeInInput
-17/02/2015 20:21:56 devpinoyLogger Write data in text box, text area
-17/02/2015 20:21:57 devpinoyLogger PASS
-17/02/2015 20:21:57 devpinoyLogger writeInInput
-17/02/2015 20:21:57 devpinoyLogger Write data in text box, text area
-17/02/2015 20:21:57 devpinoyLogger PASS
-17/02/2015 20:21:57 devpinoyLogger clickByXpath
-17/02/2015 20:21:57 devpinoyLogger Clicking using xpath attribute
-17/02/2015 20:22:03 devpinoyLogger PASS
-17/02/2015 20:22:03 devpinoyLogger isTextPresent
-17/02/2015 20:22:03 devpinoyLogger Verify if the text is present in page
-17/02/2015 20:22:03 devpinoyLogger PASS
-17/02/2015 20:22:03 devpinoyLogger navigate
-17/02/2015 20:22:03 devpinoyLogger Navigating to URL
-17/02/2015 20:22:04 devpinoyLogger PASS
-17/02/2015 20:22:04 devpinoyLogger clickByXpath
-17/02/2015 20:22:04 devpinoyLogger Clicking using xpath attribute
-17/02/2015 20:22:05 devpinoyLogger PASS
-17/02/2015 20:22:05 devpinoyLogger isTextPresent
-17/02/2015 20:22:05 devpinoyLogger Verify if the text is present in page
-17/02/2015 20:22:05 devpinoyLogger PASS
-17/02/2015 20:22:05 devpinoyLogger writeInInput
-17/02/2015 20:22:05 devpinoyLogger Write data in text box, text area
-17/02/2015 20:22:05 devpinoyLogger PASS
-17/02/2015 20:22:05 devpinoyLogger writeInInput
-17/02/2015 20:22:05 devpinoyLogger Write data in text box, text area
-17/02/2015 20:22:06 devpinoyLogger PASS
-17/02/2015 20:22:06 devpinoyLogger writeInInput
-17/02/2015 20:22:06 devpinoyLogger Write data in text box, text area
-17/02/2015 20:22:06 devpinoyLogger PASS
-17/02/2015 20:22:06 devpinoyLogger writeInInput
-17/02/2015 20:22:06 devpinoyLogger Write data in text box, text area
-17/02/2015 20:22:06 devpinoyLogger PASS
-17/02/2015 20:22:06 devpinoyLogger clickByID
-17/02/2015 20:22:06 devpinoyLogger clicking using ID attribute
-17/02/2015 20:22:08 devpinoyLogger PASS
-17/02/2015 20:22:08 devpinoyLogger isTextPresent
-17/02/2015 20:22:08 devpinoyLogger Verify if the text is present in page
-17/02/2015 20:22:08 devpinoyLogger PASS
-17/02/2015 20:22:08 devpinoyLogger closebrowser
-17/02/2015 20:22:08 devpinoyLogger Closing the browser
-17/02/2015 20:22:08 devpinoyLogger PASS
-17/02/2015 20:22:09 devpinoyLogger InvalidEmail -- N
-17/02/2015 20:22:09 devpinoyLogger NameEmpty -- N
-17/02/2015 20:22:09 devpinoyLogger EmailEmpty -- N
-17/02/2015 20:22:09 devpinoyLogger SubjectEmpty -- N
-17/02/2015 20:22:09 devpinoyLogger MessageEmpty -- N
-17/02/2015 20:22:09 devpinoyLogger AllFieldsEmpty -- N
-17/02/2015 20:22:09 devpinoyLogger Settings -- N
-17/02/2015 20:22:09 devpinoyLogger AdminSearch -- N
-17/02/2015 20:22:09 devpinoyLogger AdminDashboard -- N
-17/02/2015 20:22:09 devpinoyLogger ReplayEvent -- N
-17/02/2015 20:22:09 devpinoyLogger ReplayReport -- N
-17/02/2015 20:22:09 devpinoyLogger ImportSIMs -- N
-17/02/2015 20:22:09 devpinoyLogger ImportMojio -- N
-17/02/2015 20:22:09 devpinoyLogger ExportEvents -- N
-17/02/2015 20:22:09 devpinoyLogger DeviceManager -- N
+18/02/2015 20:26:52 devpinoyLogger Hello
+18/02/2015 20:26:52 devpinoyLogger Properties loaded. Starting testing
+18/02/2015 20:26:52 devpinoyLogger Intialize Suite xlsx
+18/02/2015 20:26:52 devpinoyLogger CreateAccount -- N
+18/02/2015 20:26:52 devpinoyLogger SignIn -- N
+18/02/2015 20:26:52 devpinoyLogger Home_Page -- N
+18/02/2015 20:26:52 devpinoyLogger MyProfile -- N
+18/02/2015 20:26:52 devpinoyLogger Dashboard_Page -- N
+18/02/2015 20:26:52 devpinoyLogger RightHandPanel -- N
+18/02/2015 20:26:52 devpinoyLogger LeftHandPanel -- N
+18/02/2015 20:26:52 devpinoyLogger MyVehicles -- N
+18/02/2015 20:26:52 devpinoyLogger MyMojios -- N
+18/02/2015 20:26:52 devpinoyLogger ClaimMojio -- N
+18/02/2015 20:26:52 devpinoyLogger BillingInformation -- N
+18/02/2015 20:26:52 devpinoyLogger FAQ -- N
+18/02/2015 20:26:52 devpinoyLogger Contact_Support -- N
+18/02/2015 20:26:52 devpinoyLogger MojioShop -- N
+18/02/2015 20:26:52 devpinoyLogger MyOrders -- N
+18/02/2015 20:26:52 devpinoyLogger LocateVehicle -- N
+18/02/2015 20:26:52 devpinoyLogger TripHistory -- N
+18/02/2015 20:26:52 devpinoyLogger SendFeedback -- N
+18/02/2015 20:26:52 devpinoyLogger Settings -- N
+18/02/2015 20:26:52 devpinoyLogger AdminSearch -- N
+18/02/2015 20:26:52 devpinoyLogger AdminDashboard -- Y
+18/02/2015 20:26:52 devpinoyLogger ******Executing the Suite******AdminDashboard
+18/02/2015 20:26:53 devpinoyLogger SignIn -- Y
+18/02/2015 20:26:53 devpinoyLogger Executing the test case -> SignIn
+18/02/2015 20:26:53 devpinoyLogger Iteration number 1
+18/02/2015 20:26:53 devpinoyLogger openBrowser
+18/02/2015 20:26:53 devpinoyLogger Opening browser
+18/02/2015 20:26:58 devpinoyLogger PASS
+18/02/2015 20:26:58 devpinoyLogger navigate
+18/02/2015 20:26:58 devpinoyLogger Navigating to URL
+18/02/2015 20:27:06 devpinoyLogger PASS
+18/02/2015 20:27:06 devpinoyLogger isTextPresent
+18/02/2015 20:27:06 devpinoyLogger Verify if the text is present in page
+18/02/2015 20:27:06 devpinoyLogger PASS
+18/02/2015 20:27:06 devpinoyLogger writeInInput
+18/02/2015 20:27:06 devpinoyLogger Write data in text box, text area
+18/02/2015 20:27:06 devpinoyLogger PASS
+18/02/2015 20:27:06 devpinoyLogger writeInInput
+18/02/2015 20:27:06 devpinoyLogger Write data in text box, text area
+18/02/2015 20:27:06 devpinoyLogger PASS
+18/02/2015 20:27:06 devpinoyLogger clickByXpath
+18/02/2015 20:27:06 devpinoyLogger Clicking using xpath attribute
+18/02/2015 20:27:15 devpinoyLogger PASS
+18/02/2015 20:27:15 devpinoyLogger isTextPresent
+18/02/2015 20:27:15 devpinoyLogger Verify if the text is present in page
+18/02/2015 20:27:15 devpinoyLogger PASS
+18/02/2015 20:27:15 devpinoyLogger NavigateAdminDashboard -- Y
+18/02/2015 20:27:15 devpinoyLogger Executing the test case -> NavigateAdminDashboard
+18/02/2015 20:27:15 devpinoyLogger Iteration number 1
+18/02/2015 20:27:15 devpinoyLogger navigate
+18/02/2015 20:27:15 devpinoyLogger Navigating to URL
+18/02/2015 20:27:16 devpinoyLogger PASS
+18/02/2015 20:27:16 devpinoyLogger scrollPageSectionBottom
+18/02/2015 20:27:16 devpinoyLogger Scroling down the section of the page
+18/02/2015 20:27:17 devpinoyLogger PASS
+18/02/2015 20:27:17 devpinoyLogger clickByXpath
+18/02/2015 20:27:17 devpinoyLogger Clicking using xpath attribute
+18/02/2015 20:27:19 devpinoyLogger PASS
+18/02/2015 20:27:19 devpinoyLogger verifyCurrentUrl
+18/02/2015 20:27:19 devpinoyLogger Verify the Current url
+18/02/2015 20:27:19 devpinoyLogger PASS
+18/02/2015 20:27:19 devpinoyLogger isTextPresent
+18/02/2015 20:27:19 devpinoyLogger Verify if the text is present in page
+18/02/2015 20:27:19 devpinoyLogger PASS
+18/02/2015 20:27:20 devpinoyLogger DeviceManagementDeviceManager -- Y
+18/02/2015 20:27:20 devpinoyLogger Executing the test case -> DeviceManagementDeviceManager
+18/02/2015 20:27:20 devpinoyLogger Iteration number 1
+18/02/2015 20:27:20 devpinoyLogger navigate
+18/02/2015 20:27:20 devpinoyLogger Navigating to URL
+18/02/2015 20:27:21 devpinoyLogger PASS
+18/02/2015 20:27:21 devpinoyLogger clickByXpath
+18/02/2015 20:27:21 devpinoyLogger Clicking using xpath attribute
+18/02/2015 20:27:41 devpinoyLogger FAIL -- Not able to click on ButtonElement is not currently visible and so may not be interacted with
+Command duration or timeout: 20.10 seconds
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 007be1bb-0442-46c0-bfad-9673cda1523e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+18/02/2015 20:27:41 devpinoyLogger taking screen shot according to config
+18/02/2015 20:27:41 devpinoyLogger verifyCurrentUrl
+18/02/2015 20:27:41 devpinoyLogger Verify the Current url
+18/02/2015 20:27:41 devpinoyLogger FAIL
+18/02/2015 20:27:41 devpinoyLogger taking screen shot according to config
+18/02/2015 20:27:42 devpinoyLogger isTextPresent
+18/02/2015 20:27:42 devpinoyLogger Verify if the text is present in page
+18/02/2015 20:27:42 devpinoyLogger FAIL
+18/02/2015 20:27:42 devpinoyLogger taking screen shot according to config
+18/02/2015 20:27:42 devpinoyLogger clickByID
+18/02/2015 20:27:42 devpinoyLogger clicking using ID attribute
+18/02/2015 20:27:55 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver
+18/02/2015 20:27:55 devpinoyLogger taking screen shot according to config
+18/02/2015 20:27:56 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+18/02/2015 20:27:56 devpinoyLogger verifyCurrentUrl
+18/02/2015 20:27:56 devpinoyLogger Verify the Current url
+18/02/2015 20:27:57 devpinoyLogger FAIL Not able get the URL
+18/02/2015 20:27:57 devpinoyLogger taking screen shot according to config
+18/02/2015 20:27:58 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+18/02/2015 20:27:58 devpinoyLogger isTextPresent
+18/02/2015 20:27:58 devpinoyLogger Verify if the text is present in page
+18/02/2015 20:27:59 devpinoyLogger Error communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver
+18/02/2015 20:28:00 devpinoyLogger DeviceManagementConfiguration -- Y
+18/02/2015 20:28:00 devpinoyLogger Executing the test case -> DeviceManagementConfiguration
+18/02/2015 20:28:00 devpinoyLogger Iteration number 1
+18/02/2015 20:28:00 devpinoyLogger navigate
+18/02/2015 20:28:00 devpinoyLogger Navigating to URL
+18/02/2015 20:28:01 devpinoyLogger FAIL -- Not able to navigate
+18/02/2015 20:28:01 devpinoyLogger taking screen shot according to config
+18/02/2015 20:28:02 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+18/02/2015 20:28:02 devpinoyLogger clickByXpath
+18/02/2015 20:28:02 devpinoyLogger Clicking using xpath attribute
+18/02/2015 20:28:03 devpinoyLogger FAIL -- Not able to click on ButtonError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver
+18/02/2015 20:28:03 devpinoyLogger taking screen shot according to config
+18/02/2015 20:28:04 devpinoyLogger not able to take screen shotsError communicating with the remote browser. It may have died.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'optimus-88', ip: '172.16.2.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: FirefoxDriver
+18/02/2015 20:28:04 devpinoyLogger verifyCurrentUrl
+18/02/2015 20:28:04 devpinoyLogger Verify the Current url
+18/02/2015 20:28:05 devpinoyLogger FAIL Not able get the URL
+18/02/2015 20:28:05 devpinoyLogger taking screen shot according to config

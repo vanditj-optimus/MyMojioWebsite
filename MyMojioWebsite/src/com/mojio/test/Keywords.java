@@ -908,7 +908,7 @@ public class Keywords {
 	//-------------------------------------Scroll down the page----------------------------------------------------
 
 	public String scrollPageBottom(String object, String data) {
-		APP_LOGS.debug("Scrooling down the page");
+		APP_LOGS.debug("Scrolling down the page");
 		try{
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("window.scrollTo(0,Math.max(document.documentElement.scrollHeight,document.body.scrollHeight,document.documentElement.clientHeight));");
